@@ -21,7 +21,9 @@ def run() -> None:
     root = Path(__file__).parent
     source = os.getenv("JOB_SOURCE", "local")
     threshold = int(os.getenv("MIN_COMPATIBILITY", "70"))
-    cv_path = str(root / "data" / "master_cv.md")
+    cv_path = os.getenv("CV_PATH", str(root / "data" / "master_cv.md"))
+    if not os.path.isabs(cv_path):
+        cv_path = str(root / cv_path)
     crm_path = os.getenv("CRM_PATH", str(root / "data" / "applications.csv"))
     jobs = search_jobs(source, str(root / "data" / "jobs.json"), os.getenv("JSEARCH_QUERY", ""), os.getenv("JSEARCH_LOCATION", ""))
 
