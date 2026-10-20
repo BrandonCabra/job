@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Ingeniero de Datos",
+    "company": "Acme Analytics",
+    "description": "Buscamos experiencia en Python, SQL, ETL, pipelines de datos y Microsoft Fabric. Se valoran APIs REST y Jira.",
+    "url": "https://example.com/jobs/acme-data-engineer",
+    "location": "Remoto"
+  },
+  {
+    "title": "Ingeniero DevOps Senior",
+    "company": "Cloud Factory",
+    "description": "Experiencia imprescindible en Kubernetes, Terraform, AWS y Go. Guardia operativa.",
+    "url": "https://example.com/jobs/cloud-devops",
+    "location": "Madrid"
+  }
+]
