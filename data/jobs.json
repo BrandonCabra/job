@@ -9,8 +9,36 @@
   {
     "title": "Ingeniero DevOps Senior",
     "company": "Cloud Factory",
-    "description": "Experiencia imprescindible en Kubernetes, Terraform, AWS y Go. Guardia operativa.",
+    "description": "Experiencia en AWS, Docker, CI/CD, GitHub Actions y automatización de despliegues. Guardia operativa.",
     "url": "https://example.com/jobs/cloud-devops",
     "location": "Madrid"
+  },
+  {
+    "title": "Analista QA Junior",
+    "company": "Quality Labs",
+    "description": "Ejecución de pruebas funcionales y exploratorias, diseño de casos de prueba, Jira, SQL y criterios de aceptación.",
+    "url": "https://example.com/jobs/quality-analyst",
+    "location": "Remoto"
+  },
+  {
+    "title": "Desarrollador Full Stack",
+    "company": "Web Factory",
+    "description": "Desarrollo de aplicaciones web con Java, JavaScript, APIs REST, MySQL, Docker y Git.",
+    "url": "https://example.com/jobs/full-stack",
+    "location": "Bogotá"
+  },
+  {
+    "title": "Ingeniero Cloud",
+    "company": "Sky Platform",
+    "description": "Diseño de infraestructura AWS, automatización CI/CD, Docker, GitHub Actions y operación de servicios cloud.",
+    "url": "https://example.com/jobs/cloud-engineer",
+    "location": "Remoto"
+  },
+  {
+    "title": "Abogado corporativo",
+    "company": "Legal Partners",
+    "description": "Asesoría en contratos mercantiles, litigios, derecho societario y negociación con clientes empresariales.",
+    "url": "https://example.com/jobs/corporate-lawyer",
+    "location": "Bogotá"
   }
 ]

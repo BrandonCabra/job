@@ -29,11 +29,18 @@ def run() -> None:
 
     for job in jobs:
         evaluation = evaluate(job, cv_path)
-        base = {"matched": evaluation.matched_skills, "missing": evaluation.missing_skills, "rationale": evaluation.rationale}
+        base = {
+            "matched": evaluation.matched_skills,
+            "missing": evaluation.missing_skills,
+            "rationale": evaluation.rationale,
+            "selected_cv": evaluation.selected_cv_path,
+            "selection_method": evaluation.selection_method,
+            "selection_confidence": evaluation.selection_confidence,
+        }
         if evaluation.score < threshold:
             record = ApplicationRecord(job, evaluation.score, "Omitida", "Evaluación", details=base)
         else:
-            cv, letter = generate_documents(job, cv_path, evaluation, str(root / "output"))
+            cv, letter = generate_documents(job, evaluation.selected_cv_path, evaluation, str(root / "output"))
             status, step = prepare_submission(job, cv, letter, os.getenv("AUTO_SUBMIT", "false").lower() == "true")
             record = ApplicationRecord(job, evaluation.score, status, step, cv, letter, base)
         log_application(record, crm_path)

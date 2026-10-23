@@ -18,6 +18,9 @@ class Evaluation:
     matched_skills: list[str] = field(default_factory=list)
     missing_skills: list[str] = field(default_factory=list)
     rationale: str = ""
+    selected_cv_path: str = ""
+    selection_method: str = ""
+    selection_confidence: float | None = None
 
 
 @dataclass
