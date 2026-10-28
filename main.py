@@ -16,16 +16,22 @@ from tools.models import ApplicationRecord
 from tools.scraper import search_jobs
 
 
-def run() -> None:
-    load_dotenv()
+def run(jobs_override=None) -> None:
     root = Path(__file__).parent
+    load_dotenv(root / ".env", override=True)
     source = os.getenv("JOB_SOURCE", "local")
     threshold = int(os.getenv("MIN_COMPATIBILITY", "70"))
     cv_path = os.getenv("CV_PATH", str(root / "data" / "master_cv.md"))
     if not os.path.isabs(cv_path):
         cv_path = str(root / cv_path)
     crm_path = os.getenv("CRM_PATH", str(root / "data" / "applications.csv"))
-    jobs = search_jobs(source, str(root / "data" / "jobs.json"), os.getenv("JSEARCH_QUERY", ""), os.getenv("JSEARCH_LOCATION", ""))
+    max_jobs = min(int(os.getenv("MAX_OLLAMA_JOBS", "50")), 50)
+    jobs = list(jobs_override)[:max_jobs] if jobs_override is not None else list(search_jobs(
+        source,
+        str(root / "data" / "jobs.json"),
+        os.getenv("JSEARCH_QUERY", ""),
+        os.getenv("JSEARCH_LOCATION", ""),
+    ))[:max_jobs]
 
     for job in jobs:
         evaluation = evaluate(job, cv_path)
@@ -41,6 +47,8 @@ def run() -> None:
             record = ApplicationRecord(job, evaluation.score, "Omitida", "Evaluación", details=base)
         else:
             cv, letter = generate_documents(job, evaluation.selected_cv_path, evaluation, str(root / "output"))
+            pdf_path = str(Path(cv).with_suffix(".pdf"))
+            base["pdf_path"] = pdf_path
             status, step = prepare_submission(job, cv, letter, os.getenv("AUTO_SUBMIT", "false").lower() == "true")
             record = ApplicationRecord(job, evaluation.score, status, step, cv, letter, base)
         log_application(record, crm_path)

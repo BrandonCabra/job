@@ -10,6 +10,10 @@ class Job:
     url: str
     location: str = ""
     source: str = "local"
+    external_id: str = ""
+    published_at: str = ""
+    scraped_at: str = ""
+    status: str = "new"
 
 
 @dataclass

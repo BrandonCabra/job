@@ -179,7 +179,7 @@ def _rewrite_bullets(job: Job, cv: str, bullets: list[str], evaluation: Evaluati
     try:
         client = ollama.Client(
             host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
-            timeout=float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "90")),
+            timeout=float(os.getenv("OLLAMA_GENERATOR_TIMEOUT_SECONDS", "30")),
         )
         response = client.chat(
             model=os.getenv("OLLAMA_MODEL", "llama3.2"),
@@ -234,7 +234,7 @@ def _rewrite_profile(job: Job, cv: str, profile: list[str], evaluation: Evaluati
         )
         client = ollama.Client(
             host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
-            timeout=float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "90")),
+            timeout=float(os.getenv("OLLAMA_GENERATOR_TIMEOUT_SECONDS", "30")),
         )
         response = client.chat(
             model=os.getenv("OLLAMA_MODEL", "llama3.2"),

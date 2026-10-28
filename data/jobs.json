@@ -4,41 +4,537 @@
     "company": "Acme Analytics",
     "description": "Buscamos experiencia en Python, SQL, ETL, pipelines de datos y Microsoft Fabric. Se valoran APIs REST y Jira.",
     "url": "https://example.com/jobs/acme-data-engineer",
-    "location": "Remoto"
+    "location": "Remoto",
+    "source": "local",
+    "status": "new"
   },
   {
     "title": "Ingeniero DevOps Senior",
     "company": "Cloud Factory",
     "description": "Experiencia en AWS, Docker, CI/CD, GitHub Actions y automatización de despliegues. Guardia operativa.",
     "url": "https://example.com/jobs/cloud-devops",
-    "location": "Madrid"
+    "location": "Madrid",
+    "source": "local",
+    "status": "new"
   },
   {
     "title": "Analista QA Junior",
     "company": "Quality Labs",
     "description": "Ejecución de pruebas funcionales y exploratorias, diseño de casos de prueba, Jira, SQL y criterios de aceptación.",
     "url": "https://example.com/jobs/quality-analyst",
-    "location": "Remoto"
+    "location": "Remoto",
+    "source": "local",
+    "status": "new"
   },
   {
     "title": "Desarrollador Full Stack",
     "company": "Web Factory",
     "description": "Desarrollo de aplicaciones web con Java, JavaScript, APIs REST, MySQL, Docker y Git.",
     "url": "https://example.com/jobs/full-stack",
-    "location": "Bogotá"
+    "location": "Bogotá",
+    "source": "local",
+    "status": "new"
   },
   {
     "title": "Ingeniero Cloud",
     "company": "Sky Platform",
     "description": "Diseño de infraestructura AWS, automatización CI/CD, Docker, GitHub Actions y operación de servicios cloud.",
     "url": "https://example.com/jobs/cloud-engineer",
-    "location": "Remoto"
+    "location": "Remoto",
+    "source": "local",
+    "status": "new"
   },
   {
     "title": "Abogado corporativo",
     "company": "Legal Partners",
     "description": "Asesoría en contratos mercantiles, litigios, derecho societario y negociación con clientes empresariales.",
     "url": "https://example.com/jobs/corporate-lawyer",
-    "location": "Bogotá"
+    "location": "Bogotá",
+    "source": "local",
+    "status": "new"
+  },
+  {
+    "title": "Junior Data Engineer Bilingue Remoto",
+    "company": "Solvo S",
+    "description": "🧠 Oferta Laboral: Ingeniero/a de Datos (Junior) Bilingue\n\nUbicación: [remoto]\n\nTipo de contrato: [Indefinido]\n\nDepartamento: Tecnología / Ingeniería de Datos\n\nPerfil Requerido\n\nEstamos en búsqueda de profesionales apasionados por los datos, con formación sólida y experiencia en ingeniería de datos, para unirse a nuestro equipo en roles Junior.\n\nRequisitos mínimos:\n• Formación académica: Ingeniería Superior, Licenciatura o Maestría en Ciencias de la Computación, Tecnología de la Información, Ingeniería o disciplinas cuantitativas afines.\n• Idiomas: Inglés avanzado (mínimo nivel B2).\n• Experiencia:\n• Junior: 1 a 2 años en roles similares, preferiblemente en el sector financiero.\n\nConocimientos técnicos requeridos:\n• Big Data, gestión de datos y arquitectura de la información.\n• Modelado de datos (conceptual, lógico y físico).\n• Procesos ETL (Extract, Transform, Load).\n• Sistemas de información y herramientas de introducción de datos.\n• Experiencia con herramientas ETL como AWS Glue.\n• Bases de datos y almacenes de datos: Snowflake, PostgreSQL, MS SQL.\n• Programación avanzada en Java y/o Python.\n• Tecnologías en la nube: AWS RDS, AWS Fargate.\n• Metodologías ágiles: Kanban, SAFe, SCRUM.\n• Certificación AWS Certified Data Engineer – Associate (imprescindible).\n• Deseable: Certificación Snowflake SnowPro Core.\n\nHabilidades personales:\n• Pensamiento crítico y analítico.\n• Resolución de problemas complejos.\n• Comunicación efectiva y trabajo colaborativo.\n\nDeseables adicionales:\n• Experiencia con herramientas de visualización y orquestación de datos.\n• Familiaridad con herramientas de CI/CD o infraestructura como código (Terraform, Jenkins, etc.) — no indispensable.\n\nHorario:\n\nCOL: Lunes a viernes de 1:00 am a 11:00 am (por cambios de horario en el país el horario está sujeto a cambios)\n\nLI-Onsite",
+    "url": "https://co.trabajo.org/oferta-4041-a8c10b1c1cd345d9ad75ba82195b2857",
+    "location": "Medellín, Antioquia     •  a través de Trabajo.org",
+    "source": "jsearch",
+    "external_id": "YkpKRzVEN1VYM3AwTWpTdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbFYzYkZkamVsOU1NbVpvTFV0NmRURllWbnBxUm5sWU0xcEdPRGRZZWtrMWFVNUVZWEJ0ZUhabVZqRmtNMW93VGt0U1VVWndaVGhaYzBaWVpXRlhWR3hRUWxob1EzbGpkRGxyZURscVF6bHNiRzFCTlY5UmJHUm1ZbGd3YTI5WlNHTlNkamhyYTBGSmJYWTFRbVZNU1RKQmMxZDRYMkY0WkhGb1lsUXlRVGRhYUVadU5FWVNGM0JUZW1SaGMwUTBSWEF0VEd0a1ZWQXhUVGRqTkZGekdpSkJSSE55T1daVFdYZEtWblZmZEd4RmNsaE5jbTVuU1ZSRWVFNXpaRmhLZDA5Qg",
+    "scraped_at": "2026-10-24T22:09:44.464409+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Junior Data Engineer Bilingue Remoto",
+    "company": "Solvo S",
+    "description": "🧠 Oferta Laboral: Ingeniero/a de Datos (Junior) Bilingue\n\nUbicación: [remoto]\n\nTipo de contrato: [Indefinido]\n\nDepartamento: Tecnología / Ingeniería de Datos\n\nPerfil Requerido\n\nEstamos en búsqueda de profesionales apasionados por los datos, con formación sólida y experiencia en ingeniería de datos, para unirse a nuestro equipo en roles Junior.\n\nRequisitos mínimos:\n• Formación académica: Ingeniería Superior, Licenciatura o Maestría en Ciencias de la Computación, Tecnología de la Información, Ingeniería o disciplinas cuantitativas afines.\n• Idiomas: Inglés avanzado (mínimo nivel B2).\n• Experiencia:\n• Junior: 1 a 2 años en roles similares, preferiblemente en el sector financiero.\nConocimientos técnicos requeridos:\n• Big Data, gestión de datos y arquitectura de la información.\n• Modelado de datos (conceptual, lógico y físico).\n• Procesos ETL (Extract, Transform, Load).\n• Sistemas de información y herramientas de introducción de datos.\n• Experiencia con herramientas ETL como AWS Glue.\n• Bases de datos y almacenes de datos: Snowflake, PostgreSQL, MS SQL.\n• Programación avanzada en Java y/o Python.\n• Tecnologías en la nube: AWS RDS, AWS Fargate.\n• Metodologías ágiles: Kanban, SAFe, SCRUM.\n• Certificación AWS Certified Data Engineer – Associate (imprescindible).\n• Deseable: Certificación Snowflake SnowPro Core.\nHabilidades personales:\n• Pensamiento crítico y analítico.\n• Resolución de problemas complejos.\n• Comunicación efectiva y trabajo colaborativo.\nDeseables adicionales:\n• Experiencia con herramientas de visualización y orquestación de datos.\n• Familiaridad con herramientas de CI/CD o infraestructura como código (Terraform, Jenkins, etc.) — no indispensable.\nHorario:\n\nCOL: Lunes a viernes de 1:00 am a 11:00 am (por cambios de horario en el país el horario está sujeto a cambios)",
+    "url": "https://bebee.com/co/jobs/junior-data-engineer-bilingue-remoto-solvo-s-medelli--ss-co-aawrja",
+    "location": "Medellín, Antioquia     •  a través de BeBee",
+    "source": "jsearch",
+    "external_id": "aktsd0tQckxSYVZILXhTNkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbEpKTlVGMFNtdHFSMFpzYzA1WlNWbFNaMU5EWkZaRlkweG9PRUZ6V1VkZmFIcENSSGgxVjI1WWVWWjJUMVJ5WW5aM05IZHdVWE5YVjJSZk0yZ3lSRU5YTVdwWmVtcDNXbHBEVURoMWFWQldYekZpZDBad1IyeGtWazh3YkRaSVNFczVhWE5IT1ZaM1dFRTBVVzQ0U0Vkd1FYVlpZMFp4ZURoTllsSnRTaTFUYm05eE5Vd1NGM0JUZW1SaGMwUTBSWEF0VEd0a1ZWQXhUVGRqTkZGekdpSkJSSE55T1daVFZreEZURFJ0V0c0eWMwVkhOWEo1YVc1amRYRnhZVTE2YlZKUg",
+    "scraped_at": "2026-10-24T22:09:44.464409+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Hybrid Junior Data Engineer - AWS Spark Pipelines",
+    "company": "Bluetab, an IBM Company",
+    "description": "Bluetab, empresa del grupo IBM, busca un Data Engineer AWS JR para unirse a su familia. Ofrecen desarrollo en entornos innovadores, trabajo híbrido y contrato indefinido.\n\nSerás responsable de pipelines ETL/ELT con Spark (Python o Scala), diseñarás consultas SQL y colaborarás en migración y procesamiento de datos en AWS (S3, Glue, Athena, Redshift), manteniendo la calidad de la información. Buscamos perfiles proactivos, con ganas de crecer y aprender en equipo, y capacidad para aportar en\n#J-18808-Ljbffr",
+    "url": "https://co.jooble.org/jdp/923734925966635891",
+    "location": "Bogotá     •  a través de Jooble",
+    "source": "jsearch",
+    "external_id": "dzJrTjFRamdVdmUtTUZJT0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURmhtV1hoMU0ybDBOV0kxYWxkR2RIUjBSakkzT0ZaVWEwa3dUMnhtTjFGRGNVdzBiRlJEWWxaSVp6RmtVbFZLUVdkNkxXc3pMV3RwYkdkU1ZGWlBVVnBSU1VKSWRsUnNVMVowUlhaRmIxbFVYMkZWUlVkM1pXcElWalpqWjNCeVNIWlNVVzV2V1c1amRXTkRMVVIxZDNGVGJYTk5NRzA0UVVsRVNGSlFiRmRHWkdGMFJXNFNGM0JUZW1SaGMwUTBSWEF0VEd0a1ZWQXhUVGRqTkZGekdpSkJSSE55T1daVWJ6ZG5kalUyVkhSTlRqaDVWRE4wU21Zd2JERTJWR3hvTkhWQg",
+    "scraped_at": "2026-10-24T22:09:44.464409+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero de Datos Junior (SQL y Python)",
+    "company": "IQ Outsourcing",
+    "description": "Ingeniero de Datos Junior (SQL y Python) [Remoto]\nPalabras clave:\n• Ingeniero de Datos Junior\n• Data Engineer\n• SQL\n• Python\n• Apache Airflow\n• DBT\n• bases de datos\n• Machine Learning\n• Analista de Datos\n• Administrador de Bases de Datos\n• Junior Data Engineer\n• GCP\n• Microsoft Azure\n• AWS\nBuscamos un Ingeniero de Datos Junior. Este rol es fundamental para el monitoreo, diagnóstico y optimización de bases de datos, anticipando fallas y asegurando el cumplimiento de políticas y trabajará con tecnologías como SQL, Python, Power BI, Machine Learning, Apache Airflow y DBT.\n\nSe ofrece contrato a término indefinido y modalidad de teletrabajo. Este profesional se desempeñará como un Data Engineer y Analista de Datos, contribuyendo a la eficiencia y confiabilidad de nuestros sistemas de información.\n\nResponsabilidades:\n• Monitorear y diagnosticar el rendimiento de las bases de datos.\n• Optimizar consultas SQL y estructuras de bases de datos.\n• Desarrollar y mantener pipelines de datos utilizando Python y Apache Airflow.\n• Crear y gestionar transformaciones de datos con DBT.\n• Asegurar el cumplimiento de las políticas de seguridad y calidad de datos.\n• Colaborar en la implementación de modelos de Machine Learning.\n• Realizar minería de datos para extraer insights valiosos.\n• Administrar bases de datos en entornos cloud como GCP Microsoft Azure y AWS.\nRequerimientos:\n• Profesional en Ingeniería de Sistemas Ingeniería Electrónica Telecomunicaciones o carreras afines.\n• Experiencia de 1 a 2 años en roles de ingeniería de datos o administración de bases de datos.\n• Dominio avanzado de SQL.\n• Experiencia sólida en programación con Python.\n• Conocimiento en herramientas de orquestación como Apache Airflow.\n• Experiencia en transformaciones de datos con DBT.\n• Familiaridad con conceptos de Machine Learning.\n• Experiencia en administración de bases de datos relacionales y NoSQL.\n• Conocimiento de servicios cloud (GCP Azure AWS).\nNivel de educación:\n• Profesional\nSectores laborales:\n• Software informática y telecomunicaciones\n• Investigación y Calidad\n• Otras\nCargo:\n• Analista\nOtras habilidades:\nHabilidades técnicas:\n• SQL\n• Python\n• Apache Airflow\nHabilidades interpersonales:\n• Resolución de problemas\n• Pensamiento analítico\n• Trabajo en equipo",
+    "url": "https://bebee.com/co/jobs/ingeniero-de-datos-junior-sql-y-python-iq-outsourcing-cucuta--ss-co-1jmd6dl",
+    "location": "Cúcuta, Norte de Santander     •  a través de BeBee",
+    "source": "jsearch",
+    "external_id": "WUNvNkVxeERKLXM5T2xfNkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVVJEVVdNNFZWOUxNV1ZoZDJsZlJXZHBiMVpZZFdvdGMzbDFRekphZVZKdGRITjFUMUJXTWxGSGRGZHVSbTl2U25oTlRFRmFaVEJOYUc1V1NuTTFURjl1WlhsNFlYSlRZM1p0ZVRCbGMwTkhSVk40WjNwYWRISktTR2xVTFZST01GaGpXRVpPV2tOdWVVTkxWWGgyTWxaRVpUSlhURnB5TTJKclFXdG1URzEwTlZGelRuZ1NGM0ZUZW1SaGRtVkVRbkJmZHpkTk9GQTFkRGQ0ZDBGUkdpSkJSSE55T1daU1JWa3lNbXd4YkZSc2J5MVdNRVkyYTB4emVtRm9SbUpMU1RkMw",
+    "scraped_at": "2026-10-24T22:09:47.641802+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Junior Data Engineer Bilingue Remoto",
+    "company": "Solvo S",
+    "description": "🧠 Oferta Laboral: Ingeniero/a de Datos (Junior) Bilingue\n\nUbicación: [remoto]\n\nTipo de contrato: [Indefinido]\n\nDepartamento: Tecnología / Ingeniería de Datos\n\nPerfil Requerido\n\nEstamos en búsqueda de profesionales apasionados por los datos, con formación sólida y experiencia en ingeniería de datos, para unirse a nuestro equipo en roles Junior.\n\nRequisitos mínimos:\n• Formación académica: Ingeniería Superior, Licenciatura o Maestría en Ciencias de la Computación, Tecnología de la Información, Ingeniería o disciplinas cuantitativas afines.\n• Idiomas: Inglés avanzado (mínimo nivel B2).\n• Experiencia:\n• Junior: 1 a 2 años en roles similares, preferiblemente en el sector financiero.\nConocimientos técnicos requeridos:\n• Big Data, gestión de datos y arquitectura de la información.\n• Modelado de datos (conceptual, lógico y físico).\n• Procesos ETL (Extract, Transform, Load).\n• Sistemas de información y herramientas de introducción de datos.\n• Experiencia con herramientas ETL como AWS Glue.\n• Bases de datos y almacenes de datos: Snowflake, PostgreSQL, MS SQL.\n• Programación avanzada en Java y/o Python.\n• Tecnologías en la nube: AWS RDS, AWS Fargate.\n• Metodologías ágiles: Kanban, SAFe, SCRUM.\n• Certificación AWS Certified Data Engineer – Associate (imprescindible).\n• Deseable: Certificación Snowflake SnowPro Core.\nHabilidades personales:\n• Pensamiento crítico y analítico.\n• Resolución de problemas complejos.\n• Comunicación efectiva y trabajo colaborativo.\nDeseables adicionales:\n• Experiencia con herramientas de visualización y orquestación de datos.\n• Familiaridad con herramientas de CI/CD o infraestructura como código (Terraform, Jenkins, etc.) — no indispensable.\nHorario:\n\nCOL: Lunes a viernes de 1:00 am a 11:00 am (por cambios de horario en el país el horario está sujeto a cambios)",
+    "url": "https://bebee.com/co/jobs/junior-data-engineer-bilingue-remoto-solvo-s-medelli--ss-co-aawrja",
+    "location": "Medellín, Antioquia     •  a través de BeBee",
+    "source": "jsearch",
+    "external_id": "aktsd0tQckxSYVZILXhTNkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMFZEY1MweVMxbFpWVTkxUmxSNVpYWm5UWFZYTURKd1dWaHVUV0ZITkRGSU1ERnhOV2hCVERCaGQxRjVibWRhYmpWbmJXVkVhMWhwTVZsdmEweGtiRXgzYXpoV1pHVmFWRWQ2UmxaV1NVTllXVEJHVkc5eFRuZExSMGxHVFZaMVRWSXRNMDFEZDJ4MGIzTnFkemhaWDJOMlZqQkdabWRFTkRWUU9HNU9ZbkF4Y21SbE5ETVNGM0ZUZW1SaGRtVkVRbkJmZHpkTk9GQTFkRGQ0ZDBGUkdpSkJSSE55T1daUllXbGZVRFpGU2pkNFpHZ3RMVTUzV0hoVmRuZzFPWE5NVDJkMw",
+    "scraped_at": "2026-10-24T22:09:47.641802+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero de desarrollo RPA Junior",
+    "company": "INTERNATIONAL TESTING INSPECTION & CERTIFICATION COLOMBIA SAS",
+    "description": "ITIC Colombia empresa con Orientación social y ambiental en búsqueda de LA\nEXCELENCIA OPERACIONAL E INTEGRIDAD en nuestros servicios, desea incorporar a sus proyectos un INGENIERO DE DESARROLLO RPA\n\nREQUISITOS:\n-Profesional o tecnólogo en Ingeniería de Sistemas, Software, Informática, Electrónica, Automatización o áreas afines.\n-Experiencia mínima de un (1) año en actividades relacionadas con desarrollo, mantenimiento o soporte de soluciones de automatización de procesos (RPA).\n-Contar con participación de proyectos de automatización mediante herramientas como Automation Anywhere, UiPath, Power Automate, IBM u otras plataformas equivalentes\n-Conocimiento en Análisis de Datos.\nConocimientos Técnicos\nConocimientos básicos/intermedios en herramientas RPA, tales como Automation Anywhere, UiPath, IBM o Power Automate.\n\nCONOCIMIENTOS TECNICOS :\n\n-Conocimientos básicos/intermedios de programación en Python.\n-Conocimientos básicos de SQL y elaboración de consultas sobre bases de datos.\n-Conocimientos en desarrollo, mantenimiento y ajuste de automatizaciones RPA.\n-Conocimientos en ejecución de pruebas, identificación y corrección de errores.\n-Conocimientos en documentación técnica y funcional de soluciones.\n-Conocimientos en soporte y estabilización de automatizaciones.\n-Manejo de buenas prácticas básicas de desarrollo de software y control de cambios.\n-Capacidad para comprender documentación técnica en inglés.\n-Deseable: conocimientos o interés en Inteligencia Artificial aplicada a la automatización de procesos.\n\nUbicación: Bogotá\n\n.\n\n-Requerimientos- Educación mínima: Universidad / Carrera Profesional\n1 año de experiencia\nConocimientos: Integridad, Ambiental, Base de datos, Electrónica, Informática, Ingeniería de sistemas, Java, Orientación, Programacion, Rpa\nPalabras clave: engineers, ingeniera, ing, engineer, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-desarrollo-rpa-junior-en-bogota-dc-F3AA51129F5DDB4F61373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "X3ctQjRDSXA2TU5INzlTbUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVWg1WWtrMmFIRlFlRFZqVGpoV1IxTkxWRUZZVlVsTGVXWldZWGhGYUVReFoyRk1RVkJyVkZrNVZVNWZVR0pIYURFM2IwWmtVRk41VEdwRlpGZHZhMVpLUVUxVFREa3dSa2hpWVU1Sk5FaFpUWEZJVG5rMmNtOTNOa0ZJWkVSMU9TMUxOMnBUUjBWWlJXWnJaRkZoUjFFNE4zRkplV2hIZUZNMFdsbEpPWEkxVVZJNGJFMFNGM0ZUZW1SaGRtVkVRbkJmZHpkTk9GQTFkRGQ0ZDBGUkdpSkJSSE55T1daUmJXZGplRFY1VUZSRU1sQllkR1ExU25OZmJFUlFOaTExT1VoQg",
+    "scraped_at": "2026-10-24T22:09:47.641802+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Tester QA  Junior",
+    "company": "Alianza Temporal S.A.S",
+    "description": "Importante empresa del sector financiero requiere ANALISTA JUNIOR QA , con fines de conformar su equipo de trabajo.\n\nNivel academico: Técnólogo en sistemas, estudiante de 7mo semestre en adelante de Ingeniería de sistemas o afines.\nEducación No Formal Requerida: Fundamentos de pruebas de software.\n\nEducación No Formal Opcional (Deseable):Certificación ISTQB Foundation Level. Metodologías Ágiles. Automatización de pruebas. Manejo de herramientas como: Postman, Selenium, SoapUI y Azure Test Plans\n\nExperiencia Mínimo 1 año de experiencia en: Diseño, ejecución y documentación de casos de prueba funcionales y técnicos. Manejo de herramientas de seguimiento de requerimientos. Conocimientos básicos de SQL, APIs y Web Services.\n\nHorario : Lunes - Viernes ( Jornada Híbrida 2 en casa 3 en oficina)\n\nSalario: $2.565.000 + Bono fijo de alimentación $ 285.000\nTotal a devengar: $ 2.850.000 + Prestaciones Ley\n\nPagos Quincenales\n\nTipo de contrato: Obra o labor\n\nSitio de Trabajo, sede de Dirección General.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nPalabras clave: comprobador, checker, tester, verificador, probador, calidad, quality, qa, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tester-qa-junior-en-bogota-dc-fa2f99c048b2b1d761373e686dcf3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "aGJRMkowUkZfVmlvVnVyVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMHR5Ym5sb1ZrWjJha296Y1d4cU16aERWWE5QVEY4MFpuaG9iV1p6ZVUxYVVqTk5hRXRqVFZvM1dGQk1Ra2x3YURabFIxUTJSR2hmY1RCSmNESjNkMmh6WlZSeFVrVmlWVWRTVEVnNWFFUmFSbTB5WjJKWFF6RTNTR056YTJsS1YweHpiUzFDU2xGRmRFcDVlalZ3YUZNd1kxY3dXSFpXUTBoRlptUndjek5ST0d4all6WVNGM0pEZW1SaGRIcDFSWEV0Vkd0a1ZWQnJVRFpZTkVGekdpSkJSSE55T1daVGFsSm9UbUZXTUdGME4yNXllRXBDZUZoS00zZzRaMDgwY3poUg",
+    "scraped_at": "2026-10-24T22:09:51.201939+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Tester QA Junior (Pruebas de Software) - Bogotá",
+    "company": "CROYDON COLOMBIA S.A",
+    "description": "Tester QA Junior (Pruebas de Software) - Bogotá Palabras clave: Tester QA JuniorQA JuniorAnalista QACalidad de SoftwarePruebas de SoftwarePruebas FuncionalesBogotáDesarrollo de SoftwareSeguimiento de erroresDocumentación de incidentesValidación de correcciones Buscamos QA Junior para apoyar la calidad de nuestras soluciones tecnológicas, participando en el diseño, ejecución y documentación de pruebas, identificación de incidentes y validación de correcciones, asegurando que las aplicaciones cumplan con los requerimientos y necesidades del usuario final. Responsabilidades: Diseñar y ejecutar casos de prueba para asegurar la calidad del software.Identificar documentar y realizar seguimiento a los incidentes y errores encontrados.Validar las correcciones implementadas por el equipo de desarrollo.Colaborar en la elaboración de guías de usuario y documentación técnica.Participar en las ceremonias ágiles del equipo de desarrollo.Asegurar el cumplimiento de los estándares de calidad definidos. Requerimientos: Tecnólogo en carreras de Sistemas, Desarrollo de Software, Programación, Administrativas, Industriales o afines.\n\nMínimo 1 año de experiencia en logística o pruebas de software. La experiencia en pruebas de software no es excluyente.\n\nInterés por el análisis, identificación y seguimiento de errores en aplicaciones.\n\nCapacidad para documentar pruebas, incidentes y resultados. Condiciones Laborales: Salario: $2.300.000 contratación / $2.518.000 salario de ratificación.\n\nContrato: Término indefinido.\n\nLugar: Bogotá – Planta.\n\nHorario: Lunes a jueves de 7:30 a. m. a 5:30 p. m. y viernes de 7:30 a. m. a 1:30 p. m.\n\nModalidad: Presencial. Sectores laborales: Software informática y telecomunicacionesProducción Operarios y ManufacturaInvestigación y Calidad Cargo: Tester QA Junior Otras habilidades: Habilidades técnicas: Diseño de pruebasEjecución de pruebasPruebas funcionales Habilidades interpersonales: Seguimiento de erroresDocumentación de incidentesValidación de correcciones",
+    "url": "https://www.magneto365.com/co/empleos/tester-qa-junior-pruebas-de-software-bogota-1038035",
+    "location": "Bogotá     •  a través de Magneto",
+    "source": "jsearch",
+    "external_id": "cV8tQUtvZXA3clp3M013aEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTblIzYm5KUWQxaENkWFkwUlhCWFRGSkRWbU13TTBWNVZsUXlkSEUzTTBRMGNtdGllV2htVG1sUFMxZEtTVmhITVVoUU5rdDNXVmczYm5OaGJGTmtkbWhQVjJvNGJ6ZzJjemx4WnpkT2JIQTNRbk53TnpkWWJuZFdkVU5PUjNSU04wWklVVEZCUkZoQmJGTkxkSFpaWHpGaFJVRkdPSEI2WWtwS1ZITmxOa3hEY1RsVmEyTVNGM0pEZW1SaGRIcDFSWEV0Vkd0a1ZWQnJVRFpZTkVGekdpSkJSSE55T1daUlRIcE1YMmRoVW1wblVGTlZjM1JMUW5kclpIZ3dWRWhaVFRabg",
+    "scraped_at": "2026-10-24T22:09:51.201939+00:00",
+    "status": "new"
+  },
+  {
+    "title": "QA Junior Engineer — Selenium & Manual Testing",
+    "company": "Softtek",
+    "description": "Softtek Colombia busca un tester de QA junior para integrar equipos en proyectos de software. Se ejecutarán pruebas manuales y se contribuirá a la automatización básica mediante Selenium y UFT, con enfoque en calidad y entrega confiable.\n\nEl candidato trabajará en entornos ágiles, participando en ceremonias de Scrum, manejando Jira o Azure para gestionar tareas y colaborando con desarrolladores y analistas para entender historias de usuario y criterios de aceptación.",
+    "url": "https://www.jobleads.com/co/job/qa-junior-engineer-selenium-manual-testing--colombia--e77572a2da224af6c44ba7522715e1a65",
+    "location": "Colombia     •  a través de JobLeads",
+    "source": "jsearch",
+    "external_id": "dTAtTXFRM0RBeGxJMHJmWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbkI2Ym5wTVZqRlNOR040T1doUWRqTlZRMDlxTFdaRVdGWllaMjlDZDJKMmNpMVBXVWxJVlRac1ZFOVpkR3RYTVRCNGRuTjNhVGRpUjNsSlRHOXdiSEF5TTNNeGNYcEpUMjlzT0dsS1pFZDVhVFJOWmpSWVVHRktNbXhuYUVsZlZ6VlFjMnBhV2s4NFNFTlBlRWRsU1ZkRGJtSm9VRGRRTVRsa1ZWaE9SVTFMWVZWd1NVOFNGM0pEZW1SaGRIcDFSWEV0Vkd0a1ZWQnJVRFpZTkVGekdpSkJSSE55T1daU01UQnJNVFJLTmpGTVFqZHlka1JoVmxwWU1VdEVNV1V4WnpGMw",
+    "scraped_at": "2026-10-24T22:09:51.201939+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Semillero tester QA Junior Bogotá",
+    "company": "Mainsoft LTDA",
+    "description": "Somos una empresa con más de 30 años de experiencia, especializada en la prestación de servicios de talento humano para el sector tecnológico, comprometida con la excelencia y el desarrollo de soluciones de alto valor.\n\nCondiciones de la vacante:\n• Contrato por obra o labor inicialmente por 6 meses, con posibilidad de prórroga según desempeño y necesidades del proyecto.\n• Modalidad: Presencial en Bogotá.\n• Salario: $1.423.500 + auxilio de transporte de $200.000 .\n\nPerfil requerido:\n• Técnico, tecnólogo o estudiante/profesional de Ingeniería de Sistemas o carreras afines.\n• Experiencia mínima de 6 meses en pruebas de software (se consideran válidas las prácticas profesionales).\n• Conocimientos en metodologías ágiles, especialmente Scrum y Kanban .\n• Interés por desarrollarse profesionalmente en el área de Aseguramiento de la Calidad (QA).",
+    "url": "https://co.jooble.org/jdp/8233162233713479196",
+    "location": "Bogotá     •  a través de Jooble",
+    "source": "jsearch",
+    "external_id": "bWhoYnZDRS1WTVZfZEo3S0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVGQ1VlZOdGMwaFNTMVppYURNd1gwMWlhVUUwYTNwT2IxcGxhbFo0ZVZoQ2NtaFRWRzVTU25OUU9VbEdiSFI0VFdvMVVIVldSbVpIZGxOM09UUlJNV0pOYWxwSFdXZERTVWx6ZFhSdFdWVldiUzEzUldsQ2NGY3lRbGxZYjJSTFZreGFNVlI2YTJkWlFsOVNUM0ZxVDFaNFJscFRTRkoxYUdacWVVdFhkSFJIYUU1Uk5GRVNGM0pEZW1SaGRIcDFSWEV0Vkd0a1ZWQnJVRFpZTkVGekdpSkJSSE55T1daVVozRmpWWE4wVW1sdlJqSkRjV2xIT1djNE9FeHVNVTlOT1ZKQg",
+    "scraped_at": "2026-10-24T22:09:51.201939+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Tester QA  Junior",
+    "company": "Alianza Temporal S.A.S",
+    "description": "Importante empresa del sector financiero requiere ANALISTA JUNIOR QA , con fines de conformar su equipo de trabajo.\n\nNivel academico: Técnólogo en sistemas, estudiante de 7mo semestre en adelante de Ingeniería de sistemas o afines.\nEducación No Formal Requerida: Fundamentos de pruebas de software.\n\nEducación No Formal Opcional (Deseable):Certificación ISTQB Foundation Level. Metodologías Ágiles. Automatización de pruebas. Manejo de herramientas como: Postman, Selenium, SoapUI y Azure Test Plans\n\nExperiencia Mínimo 1 año de experiencia en: Diseño, ejecución y documentación de casos de prueba funcionales y técnicos. Manejo de herramientas de seguimiento de requerimientos. Conocimientos básicos de SQL, APIs y Web Services.\n\nHorario : Lunes - Viernes ( Jornada Híbrida 2 en casa 3 en oficina)\n\nSalario: $2.565.000 + Bono fijo de alimentación $ 285.000\nTotal a devengar: $ 2.850.000 + Prestaciones Ley\n\nPagos Quincenales\n\nTipo de contrato: Obra o labor\n\nSitio de Trabajo, sede de Dirección General.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nPalabras clave: comprobador, checker, tester, verificador, probador, calidad, quality, qa, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tester-qa-junior-en-bogota-dc-fa2f99c048b2b1d761373e686dcf3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "aGJRMkowUkZfVmlvVnVyVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXhOWWxONlNqSXRlbEZxZFZsWGFGRmZZWFF3Uld0S1RHUnVZbmN5V2pab1p6ZFZNVTlUUm5KeU9Ib3hkbXN3VUdJNExWUk9PRWN3TjBWa1VXczRVVWg1WWtacU1GOVFUVVZRVTFOemRFNUdPWFpxWW5kdmFEa3dTRVJXUkRsNGVsSXRNR2t3YmtaTVV5MVBYelZUWkdwSGEzbGpiMlJQZFhOUlYxTjRTRGhvZHpoSVREVVNGM0o1ZW1SaGRGQXRUWE5VY1RkTk9GQnlTbnBCY1VGbkdpSkJSSE55T1daU1FrbzRhVlJ5YkV3dFIzRldNMGQxTms1VmMwZ3pRM2d5Wm5OQg",
+    "scraped_at": "2026-10-24T22:09:54.684180+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Analista Junior QA",
+    "company": "Dar Ayuda Temporal S.A.",
+    "description": "¡Estamos buscando al mejor personal!.\n\n¡Haz parte de nuestro equipo!.\n\nNos encontramos en la búsqueda de tecnólogo, estudiante séptimo semestre en adelante o profesional de Ingeniería de Sistemas o afines. Debes contar con mínimo 2 años de experiencia en cargos de analista QA o tester QA cumpliendo funciones como:\n\n- Diseño, ejecución y documentación de casos de prueba funcionales y técnicos.\n\n-Manejo de herramientas de seguimiento de requerimientos.\n\n- Atención de incidentes de diferentes sistemas de información.\n\n- Requerimiento y manejo de herramientas como SoapUI/Postman/Selenium/Azure DevOps UML , desarrollo QA. deseable conocimientos en automatización de pruebas.\n\nHorarios: flexibles de Lunes a viernes. Jornada híbrida\n\nSalario: Básico $2.850.000 + Beneficios\n\nEn Dar Ayuda Temporal S.A. cumplimos con todas las regulaciones legales pertinentes, como la ley 1581 de 2012, por medio de la cual protegemos los datos personales de cada uno de los aspirantes. Para nosotros es importante que los participantes a nuestros procesos de selección tengan presente que, nunca se solicitará rubro económico alguno para la consecución de un empleo.",
+    "url": "https://co.jooble.org/jdp/4342273493743064145",
+    "location": "Bogotá     •  a través de Jooble",
+    "source": "jsearch",
+    "external_id": "YktKUkpTUWJOS3p2R2s1ckFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbHBzVVZwWVl6Rk5Oelp6TTNBNU0waEVSV2RtWmxSVU9EbEVTbTlIWmxkc2VrTlNjbkZKYzBReU1VSnVhSEIyVDAxVlgwZHhhWFJ1TTNsaVFYbGplRE5pWkZGR2VYTmhNR2h3ZURoVGMwcDJhbXhyUWtNNVMzaG5iMEkyTFVKSkxVSjFaSEZSWVVzeWR6TjNUR3hFUjFOM2VIb3Rkbkl3ZVdWdE9WUjFhMnhrTm5KUU5XY1NGM0o1ZW1SaGRGQXRUWE5VY1RkTk9GQnlTbnBCY1VGbkdpSkJSSE55T1daVU1VZ3pUVlpSY3pCemVHRkxObXhPYjNKUFRWRndjMmQ1Tm5CQg",
+    "scraped_at": "2026-10-24T22:09:54.684180+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Tester QA Junior (Pruebas de Software) - Bogotá",
+    "company": "CROYDON COLOMBIA S.A",
+    "description": "Tester QA Junior (Pruebas de Software) - Bogotá Palabras clave: Tester QA JuniorQA JuniorAnalista QACalidad de SoftwarePruebas de SoftwarePruebas FuncionalesBogotáDesarrollo de SoftwareSeguimiento de erroresDocumentación de incidentesValidación de correcciones Buscamos QA Junior para apoyar la calidad de nuestras soluciones tecnológicas, participando en el diseño, ejecución y documentación de pruebas, identificación de incidentes y validación de correcciones, asegurando que las aplicaciones cumplan con los requerimientos y necesidades del usuario final. Responsabilidades: Diseñar y ejecutar casos de prueba para asegurar la calidad del software.Identificar documentar y realizar seguimiento a los incidentes y errores encontrados.Validar las correcciones implementadas por el equipo de desarrollo.Colaborar en la elaboración de guías de usuario y documentación técnica.Participar en las ceremonias ágiles del equipo de desarrollo.Asegurar el cumplimiento de los estándares de calidad definidos. Requerimientos: Tecnólogo en carreras de Sistemas, Desarrollo de Software, Programación, Administrativas, Industriales o afines.\n\nMínimo 1 año de experiencia en logística o pruebas de software. La experiencia en pruebas de software no es excluyente.\n\nInterés por el análisis, identificación y seguimiento de errores en aplicaciones.\n\nCapacidad para documentar pruebas, incidentes y resultados. Condiciones Laborales: Salario: $2.300.000 contratación / $2.518.000 salario de ratificación.\n\nContrato: Término indefinido.\n\nLugar: Bogotá – Planta.\n\nHorario: Lunes a jueves de 7:30 a. m. a 5:30 p. m. y viernes de 7:30 a. m. a 1:30 p. m.\n\nModalidad: Presencial. Sectores laborales: Software informática y telecomunicacionesProducción Operarios y ManufacturaInvestigación y Calidad Cargo: Tester QA Junior Otras habilidades: Habilidades técnicas: Diseño de pruebasEjecución de pruebasPruebas funcionales Habilidades interpersonales: Seguimiento de erroresDocumentación de incidentesValidación de correcciones",
+    "url": "https://www.magneto365.com/co/empleos/tester-qa-junior-pruebas-de-software-bogota-1038035",
+    "location": "Bogotá     •  a través de Magneto",
+    "source": "jsearch",
+    "external_id": "cV8tQUtvZXA3clp3M013aEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMmxDTjFneWRuQjZjMVJvTlZaZk5UTkZNbWRRYzJGeldWVlhaRmRLY1VWaldXTm9jbk56YVhkcFRHSnpVbVZ2TlRWcmIxUnBjRGxVY0MxSFZWUkxjRmhuZWtONmFWZG5RV0k1YVV4dlRXUlVNRTUxVldOdWNFaGllVVphYTBGVWRGTnphVUpQYlRsM1ozQnliRVZ5TmxsbFlYWlBlRXQwVFV4V2RWRm1RalU1WjBGU1R6WVNGM0o1ZW1SaGRGQXRUWE5VY1RkTk9GQnlTbnBCY1VGbkdpSkJSSE55T1daVVlUaDFXa0p5VkhKeFZtdzRkMU5IU25VMFMweDFNakpRV21Obg",
+    "scraped_at": "2026-10-24T22:09:54.684180+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Analista Junior de Calidad",
+    "company": "NTT DATA Europe & Latam",
+    "description": "“🏳️ 🌈 Ntt Data mantiene un política de contratación inclusiva, por lo que invita a cualquier persona a participar en el proceso de selección en referencia ”\n\n🌟 Oportunidad laboral | Analista Junior de Calidad\n\nEn NTT DATA seguimos fortaleciendo nuestro equipo de tecnología para acompañar proyectos de transformación digital y soluciones de alto impacto.\n\nEsta oportunidad está orientada a profesionales o estudiantes de últimos semestres de Ingeniería de Sistemas, Software, Datos o carreras afines, con experiencia en validación, reconciliación y aseguramiento de la calidad de datos en procesos de migración desde AWS hacia plataformas open-source.\n\nRequisitos\n\n• Ser profesional o estudiante de últimos semestres de Ingeniería de Sistemas, Software, Datos o carreras afines.\n\n• Experiencia en pruebas de validación y reconciliación de datos entre ambientes.\n\n• Experiencia en procesos de migración de datos desde AWS hacia plataformas open-source.\n\n• Conocimiento en calidad de datos y validación de resultados.\n\n• Manejo de dbt tests o herramientas similares para pruebas de datos.\n\n• Conocimiento y manejo de SQL.\n\n• Experiencia en automatización de pruebas con Python.\n\n• Habilidades para el análisis, la documentación de resultados y la gestión de defectos.\n\n• Capacidad para trabajar de forma colaborativa con equipos de datos y desarrollo.\n\n¿Por qué nosotros?\n\n🎓 Cursos y certificaciones\n\n📈 Plan carrera y crecimiento profesional\n\n🔐 Seguro de vida\n\n✨ Medicina prepagada\n\n💻 Auxilio de conectividad\n\n🤝 Convenios corporativos\n\n🗽 Programa de inglés\n\n⏰ Flex time\n\n🌈 Somos una compañía diversa e inclusiva\n\n¡Ven y únete a NTT DATA, el mejor lugar para los mejores!\n• • Visita nuestra página web: www.nttdata.com",
+    "url": "https://co.linkedin.com/jobs/view/analista-junior-de-calidad-at-ntt-data-europe-latam-4471565749",
+    "location": "Medellín, Antioquia     •  a través de LinkedIn",
+    "source": "jsearch",
+    "external_id": "LXAxeHEzemVRRC16Nk96SUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV0ZNUlZoRU5VRjFNSE0xU0V4SlExZDZSM1ZvVUZSdVFXUkRZazVEZFU0ME9FSlFiMDFtVlRST01reEVRV3hwUzBWdVVXVkdUM2xaYkhkSGVUTlZXWE41Tkd0UGMwMUVibkEyZWw5UlRrUmlRa28xTWxJeGNVSktibkptU2pWdU0xcFdRbkZUU0c5cE4xaHRiVU54Y1VaSmVERlFRelJUV2tKUU4wUkpUa2xFY1U1RWJYb1NGM0o1ZW1SaGRGQXRUWE5VY1RkTk9GQnlTbnBCY1VGbkdpSkJSSE55T1daUlIwdFVORzVxVERKaE5sWkNlVTFYZDJKek4xUndUWGRwVm5CMw",
+    "scraped_at": "2026-10-24T22:09:54.684180+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Remote DevOps Engineer — GPU/Kubernetes & FinOps",
+    "company": "Devopsroles",
+    "description": "Fundamental is seeking a mid-level DevOps & Release engineer for a fully remote, full-time role. You will build cloud foundations, operate GPU-accelerated Kubernetes, and implement ArgoCD and Terraform pipelines for production SaaS.\n\nYou will work with ML engineers, optimize FinOps, monitor distributed systems, and contribute to cost control while advancing CI/CD and IaC practices across AWS and GCP.\n#J-18808-Ljbffr",
+    "url": "https://co.jooble.org/jdp/6405339616063680604",
+    "location": "Colombia, Huila     •  a través de Jooble",
+    "source": "jsearch",
+    "external_id": "dnJiQkJkSzU3UGowMWJza0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVlJJUzB4Wk1UQkdNMWh6WjFFMGFWZHBURE4xTkZONFVrNXljVlZ3TUhkTlVVeENjVFI0ZDJaSlJWVXdXbFJwWW01U05VeHJPRFpGVUdnM2RHbHhNakZvWWpRMWFTMTJaVjh6WkVSUFp6UmxibTVNYTNob00wRTRWbUoxVUVsSVpIRnlWVTFLU2twT1NVbGFkalpaWVUxVU5rSmlTWGQ1WkdNd09IWnFSWGR0YzFobU9WY1NGM041ZW1SaGMzRjFSRjloYld0a1ZWQjFZa3hKZDFGUkdpSkJSSE55T1daVVMxaFhaek5pZUdKc2RFVkdjbk5JV0V0bk1ucFBkRlk0VmtGUg",
+    "scraped_at": "2026-10-24T22:09:57.544493+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps - Especialista en Infraestructura como Código (IaC) con Azure DevOps, GitHub, Terraform y Bicep",
+    "company": "Softtek",
+    "description": "Ingeniero DevOps - Especialista en Infraestructura como Código (IaC) con Azure DevOps, GitHub, Terraform y Bicep Profesional en Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Telemática, Ingeniería de Computación, Ingeniería de Telecomunicaciones, Ingeniería Industrial o Ingeniería Electrónica. Indispensable: contar con tarjeta profesional vigente. Certificaciones requeridas Contar con al menos una de las siguientes certificaciones: Certificación en Terraform. Certificación en Bicep. Importante: adjuntar acta de grado, diploma, tarjeta profesional y certificación vigente. Experiencia general Mínimo tres (3) años de experiencia en proyectos de desarrollo de software. Experiencia específica Experiencia demostrable en al menos dos (2) proyectos de desarrollo de software como responsable de: Configuración y despliegue de soluciones. Implementación de procesos de integración y entrega continua (CI/CD). Administración de repositorios y pipelines utilizando Azure DevOps o GitHub. Creación y gestión de Infraestructura como Código (IaC) mediante Terraform o Bicep. Importante: las certificaciones laborales deben evidenciar claramente la participación en los proyectos mencionados, así como las funciones desempeñadas. Esta experiencia debe estar relacionada en la hoja de vida. #J-18808-Ljbffr",
+    "url": "https://co.sercanto.com/detail/a/ingeniero-devops-especialista-en-infraestructura-como-codigo-iac-con-azure-devops-github-terraform-y-bicep_colombia_44148094",
+    "location": "Colombia, Huila     •  a través de Sercanto",
+    "source": "jsearch",
+    "external_id": "YjRTOGJZTmVWdHE3OEhmS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSFJXU1VWS1ZUTTJObE5aZFdSMFR6RmZZbkoyUTBwTFdHUmhZblY0VUMxR09XOU9PRWM0WlhaV2JISTFOa05UVjFveVNtUm5hWEJqTWxCZlJETTRYMDF5UWs5TGRIQm1ja2QxY21OMWFWcDNTVlZMYTJGck9GRkllVEZ6ZVhsTlJIUmlVWFpqZFRCaVNsUkZaak0wZERsbVIxUmtaRE00WWtoYVZsOW5TVWR3V0V4aVdpMFNGM041ZW1SaGMzRjFSRjloYld0a1ZWQjFZa3hKZDFGUkdpSkJSSE55T1daU2JGUkZkMmhwYUVSQlNqUlFjWEF0Y2t3NGJWaDRhVlYzVEd4Ug",
+    "scraped_at": "2026-10-24T22:09:57.544493+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps – Automatización, Seguridad y GitHub Actions",
+    "company": "Inetum",
+    "description": "Inetum Colombia busca un Ingeniero DevOps para unirse al equipo híbrido en Bogotá. El perfil ideal domina gobernanza de accesos, RBAC y políticas de seguridad, con capacidad para gestionar flujos de trabajo y estrategias de branching en Git. Se valoran conocimientos de GitHub Actions, SSO y manejo de repositorios, con disponibilidad para trabajar en modalidad híbrida. Ofrecemos salario competitivo y beneficios orientados al bienestar. J-18808-Ljbffr",
+    "url": "https://co.sercanto.com/detail/a/ingeniero-devops-automatizacion-seguridad-y-github-actions_bogota_44203597",
+    "location": "Bogotá     •  a través de Sercanto",
+    "source": "jsearch",
+    "external_id": "SlN1eFlRZll2NGNCMkZ5YkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURlJoWTFVeFMzbEdWV0ZDT1hSb1JIZHhTMUV5VkROWE1ITkdSVmR6TW5OTVRVTmphSGxoTkZCNk9FdzRTMjVPU2xWZlRXTmxORVprYVdKSk4xUklTRXMzTTFwNGMzZGplRGx0VkZwcmJVWnlhRlphZUVRMldXVkpjVXBVVXpBMlVVVlhTbTlPZEZKWU1FaGZPSHBGYzIxWUxUVnZaWFpCU2taUmNHRkpWbEJTUVhGMFMyY1NGM041ZW1SaGMzRjFSRjloYld0a1ZWQjFZa3hKZDFGUkdpSkJSSE55T1daUk9FSlBRamcwYkZCS1oxTlhjWFoxTUZBeWMybFVTVXN0Ukdsbg",
+    "scraped_at": "2026-10-24T22:09:57.544493+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps Teletrabajo 100%",
+    "company": "CIBERNOS COLOMBIA S.A.S.",
+    "description": "Buscamos un/a Ingeniero DevOps para participar en un proyecto enfocado en la automatización, optimización y evolución de plataformas tecnológicas en entornos cloud.La persona seleccionada trabajará en el diseño y mantenimiento de pipelines de CI/CD, la administración de plataformas Kubernetes, la automatización de infraestructura y la implementación de prácticas de seguridad a lo largo del ciclo de vida del software.Colaborará con equipos de Desarrollo, SRE, Arquitectura, Seguridad e Infraestructura, contribuyendo a mejorar la eficiencia, estabilidad, escalabilidad y seguridad de los despliegues en entornos productivos.\r\n\r\nResponsabilidades:\r\nDiseñar, implementar y optimizar pipelines de integración y despliegue continuo (CI/CD).\r\nAdministrar y resolver incidencias en plataformas Kubernetes y entornos de contenedores Docker.\r\nImplementar procesos GitOps mediante Argo CD, Flux o herramientas equivalentes.\r\nAutomatizar el aprovisionamiento y la gestión de infraestructura mediante Terraform, Pulumi u otras herramientas de IaC.\r\nTrabajar con plataformas cloud como AWS, Azure o Google Cloud.\r\nIncorporar controles de seguridad en los procesos de construcción, validación y despliegue del software.\r\nMonitorizar plataformas, analizar incidencias complejas y ejecutar análisis de causa raíz.\r\nDiseñar estrategias de despliegue, rollback y recuperación de servicios.\r\nDesarrollar scripts y automatizaciones mediante Bash o Python.\r\nElaborar documentación técnica, definir buenas prácticas y promover componentes reutilizables.\r\nColaborar con equipos multidisciplinares y proporcionar acompañamiento técnico a perfiles junior.\r\n\r\nRequisitos:\r\nTitulación universitaria en Ingeniería Informática, Ingeniería de Sistemas, Ingeniería de Software o formación equivalente.\r\nMínimo 4 años de experiencia en DevOps, automatización, infraestructura o plataformas cloud.\r\nExperiencia en herramientas de CI/CD: GitLab CI/CD, Jenkins, GitHub Actions, Azure Pipelines o equivalentes.\r\nConocimientos avanzados de Linux, Git y Docker.\r\nExperiencia sólida en administración y resolución de problemas con Kubernetes en entornos productivos.\r\nExperiencia con herramientas GitOps como Argo CD o Flux.\r\nExperiencia práctica con Terraform, Pulumi, CloudFormation u otras soluciones de infraestructura como código.\r\nExperiencia con al menos un proveedor cloud: AWS, Azure o Google Cloud.\r\nConocimientos de redes, DNS, TLS, certificados, balanceadores de carga y conectividad.\r\nExperiencia con herramientas de monitorización, logs, métricas y alertas.\r\nConocimientos de scripting con Bash o Python.\r\nComprensión de buenas prácticas de seguridad, gestión de secretos y análisis de vulnerabilidades.\r\nInglés C1\r\n\r\nSe valorará:\r\nExperiencia en DevSecOps y seguridad de la cadena de suministro de software.\r\nConocimientos de Helm, políticas como código, SBOM, SLSA y firma de artefactos.\r\nFamiliaridad con métricas DORA, prácticas SRE y conceptos de FinOps.\r\nExperiencia en entornos regulados con requisitos de auditoría y cumplimiento.\r\nExperiencia en mentoría técnica y definición de estándares de ingeniería.\r\nUso responsable de herramientas de inteligencia artificial generativa aplicadas a DevOps.\r\n\r\n¿Qué ofrecemos?\r\nModalidad: Teletrabajo\r\nSalario a Convenir\r\nProyecto innovador con clientes extranjeros\r\n\r\n¿Te interesa el reto?Si tienes experiencia en DevOps, Kubernetes, CI/CD e infraestructura cloud y buscas participar en un proyecto con un alto componente técnico, ¡nos gustaría conocerte!",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/ingeniero-devops-teletrabajo-100-1886781310",
+    "location": "Colombia     •  a través de El Empleo",
+    "source": "jsearch",
+    "external_id": "Sy1nVGtzOHU0UTRRVEFpWEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVWR1U1daa1VXSXhMVVo1TkUxaE9ITm5WMFZWTkhGalZUQm5hbmRQVUVWV2RGZFRURkprVkdGWFUyRjVaMDkyTFRWNlRISmlWRTFaZFROaVZDMTNWRFZYUnpCYWFGQnVjelJMVkZWT2RVZ3hPSEZ1UkVWdlVWZEJRV28xU0hkQlkwMUNkMWxhYW1Oa1pUSmFaV05hU2tkek1HODNRWGxtUzBwUWQzQjZURVpzTjBJNFpXRVNGM1Y1ZW1SaGNVOVBRM0ppZEhKMVJWQnlOVTlUTWtGWkdpSkJSSE55T1daUllUVkhOM2wyY1RWdGVGbFJObXAwWjNsNWNsUXlaWEE0YTNOMw",
+    "scraped_at": "2026-10-24T22:10:05.584707+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps CI/CD",
+    "company": "Ceiba Software",
+    "description": "¡Impulsa tu carrera con Ceiba Software! 🚀\nEn Ceiba Software te invitamos a ser parte de nuestra #FamiliaCeiba y liderar la transformación tecnológica en proyectos desafiantes con clientes globales.\nQueremos que hagas parte de la #FamiliaCeiba en el rol de Ingeniero DevOps CI/CD.\nRequerimientos:⏳ Mínimo 2 años de experiencia comprobable en roles relacionados con DevOps, Cloud Engineering, SRE (Site Reliability Engineering) o Desarrollo Ágil.🚀 Experiencia en diseño e implementación de pipelines de integración y entrega continua (CI/CD).☁️ Experiencia en administración y configuración de soluciones en la nube como AWS, GCP y Azure.🤝 Experiencia en colaboración con equipos de desarrollo, infraestructura y operaciones en entornos ágiles.🐳 Conocimiento avanzado en herramientas DevOps para CI/CD, contenedores (Docker) y orquestadores como Kubernetes.💻 Conocimiento en scripting y programación para automatización (Bash, Python, Groovy, etc.).🔒 Bases sólidas en estrategias de seguridad en entornos de nube.🌐 Conocimientos en al menos un proveedor de nube pública (AWS, Azure o GCP).🔄 Conocimientos en metodologías ágiles (Scrum, Kanban) y en procesos iterativos/incrementales.\nTambién puedes postularte por nuestros canales: o llevando tu CV a la dirección Calle 8 b 65 - 191 | Oficina 409 Centro Empresarial Puerto Seco.",
+    "url": "https://cazvid.com/es/empleo/ingeniero-devops-ci-cd-40e58a3e",
+    "location": "Bogotá     •  a través de CazVid",
+    "source": "jsearch",
+    "external_id": "V0hhcDBKTHlnbmE1bDQyR0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVGhWUVVaT1NrSmtabWRwYnpFd1owMVlWREF5U1hSaU1WcDFhbTk2UlVsSFEydFhiVzl1T1ZKcE1WRkVSelppZEZBM2RVMVhaMlZFVWpWRE9VTXlORWN3V1RKd2NHWmtOVmRDWldKSU0wOXhaRVpNYVZSM1lqa3pkM3BJTTFGZlVYSTJaVWswU1RjMVpXMUNOblF5YkZCbVEzTmlaMGhrWkd0RVozQXhlVE5rYzFsbFNUVVNGM1Y1ZW1SaGNVOVBRM0ppZEhKMVJWQnlOVTlUTWtGWkdpSkJSSE55T1daUlYwZEVXVUo1YXpFNE5HZEtRWHAzTVdvNU5tNUZYemt6V1doQg",
+    "scraped_at": "2026-10-24T22:10:05.584707+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps - Especialista en Infraestructura como Código (IaC) con Azure DevOps, GitHub, Terraform y Bicep",
+    "company": "Softtek",
+    "description": "Ingeniero DevOps - Especialista en Infraestructura como Código (IaC) con Azure DevOps, GitHub, Terraform y Bicep Profesional en Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Telemática, Ingeniería de Computación, Ingeniería de Telecomunicaciones, Ingeniería Industrial o Ingeniería Electrónica. Indispensable: contar con tarjeta profesional vigente. Certificaciones requeridas Contar con al menos una de las siguientes certificaciones: Certificación en Terraform. Certificación en Bicep. Importante: adjuntar acta de grado, diploma, tarjeta profesional y certificación vigente. Experiencia general Mínimo tres (3) años de experiencia en proyectos de desarrollo de software. Experiencia específica Experiencia demostrable en al menos dos (2) proyectos de desarrollo de software como responsable de: Configuración y despliegue de soluciones. Implementación de procesos de integración y entrega continua (CI/CD). Administración de repositorios y pipelines utilizando Azure DevOps o GitHub. Creación y gestión de Infraestructura como Código (IaC) mediante Terraform o Bicep. Importante: las certificaciones laborales deben evidenciar claramente la participación en los proyectos mencionados, así como las funciones desempeñadas. Esta experiencia debe estar relacionada en la hoja de vida. #J-18808-Ljbffr",
+    "url": "https://co.sercanto.com/detail/a/ingeniero-devops-especialista-en-infraestructura-como-codigo-iac-con-azure-devops-github-terraform-y-bicep_colombia_44148094",
+    "location": "Colombia, Huila     •  a través de Sercanto",
+    "source": "jsearch",
+    "external_id": "YjRTOGJZTmVWdHE3OEhmS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSE5mWkRCaWFVZDZaVFJoTTBkaE1FWTVXVlpLVlVJMVp6VlhSR0kzTkdWeFRGQlpVbTlsVm5KWmJqbDFXWFpRUkY5a01ta3RSME01TUZseWJUZFhabEY2TkdwSE0xSmZhR1ZFTVRZdExWRmpjMWRNU1hobVZtOU1VRmgwVG5sM2JIWldaMFpMU0doWVZsWnVhM2hZY1d0c05UTkdZMnRUTFdOa1gwOW5jalpoWWtaTlQyNFNGM1Y1ZW1SaGNVOVBRM0ppZEhKMVJWQnlOVTlUTWtGWkdpSkJSSE55T1daUlIyWlNhRFZpZDFoUlptVnNSMU5DZUU5alVXeERSMnMwWVZKbg",
+    "scraped_at": "2026-10-24T22:10:05.584707+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero DevOps – Automatización, Seguridad y GitHub Actions",
+    "company": "Inetum",
+    "description": "Inetum Colombia busca un Ingeniero DevOps para unirse al equipo híbrido en Bogotá. El perfil ideal domina gobernanza de accesos, RBAC y políticas de seguridad, con capacidad para gestionar flujos de trabajo y estrategias de branching en Git. Se valoran conocimientos de GitHub Actions, SSO y manejo de repositorios, con disponibilidad para trabajar en modalidad híbrida. Ofrecemos salario competitivo y beneficios orientados al bienestar. J-18808-Ljbffr",
+    "url": "https://co.sercanto.com/detail/a/ingeniero-devops-automatizacion-seguridad-y-github-actions_bogota_44203597",
+    "location": "Bogotá     •  a través de Sercanto",
+    "source": "jsearch",
+    "external_id": "SlN1eFlRZll2NGNCMkZ5YkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURGQ1WjJrNWJYaHNVRzkxYm1SRk5UQlhiRVZPWDI1MmRGQjZTelk0Y0ZFMmRWbDBhM0ppZEV3Mk4yZGlWRjlZYzA4eFFVaGFTSEF3ZGpsNmVEZDZjbWhtWDFwR2VYRTNSMloyZUdWallsOW5SVTlGTWpKUVJFVk5hM3BPTVcxUVgwMHlSMWhRWm1zdE5HUk5jRmszZFdOVGVHMWhUa0kzUjNWSldrSnVSbmxXZG5CcVZIa1NGM1Y1ZW1SaGNVOVBRM0ppZEhKMVJWQnlOVTlUTWtGWkdpSkJSSE55T1daU1lqbG9ObFIwZW1oRWJVdEVTak5DYWs5NlVHdFJXVUp1TlVOMw",
+    "scraped_at": "2026-10-24T22:10:05.584707+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador Cloud Junior (AWS/Java/DevOps) - Híbrido en Bogotá",
+    "company": "Cinte Colombia SAS",
+    "description": "¡Únete al mejor equipo de trabajo! En CINTE Colombia buscamos Ingeniero de Sistemas, electrónica, telecomunicaciones o carreras afines, Estudiantes de últimos semestres (Octavo Semestre), Tecnólogo Titulado.\r\n\r\nMás de 1 año en:\r\nConocimiento en Frontend estático: Html5, CSS3 JS\r\nConocimiento en backend: Java (Sprint), NodeJS, phyton, contenedores\r\nconocimiento en en plataformas como AWS, Azure o Google Cloud, Familiaridad con conceptos de CI/CD y DevOps. \r\n\r\nModalidad: Híbrida en Bogotá\r\nContrato: Obra o labor\r\nHorarios: Lunes a viernes de 8am a 6pm\r\nSalario: A convenir\r\n\r\nSi cumples con el perfil, no dudes en postularte",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/desarrollador-cloud-junior-aws-java-devops-hibrido-en-bogota-1886774429",
+    "location": "Bogotá     •  a través de El Empleo",
+    "source": "jsearch",
+    "external_id": "UFFpSU1WZ3YxdG10WEo1MUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa05pT0dGeU9UUjBiek4yTFhOR2RrNXNlWEZHT0ZWSFRGOTVOM2hGYzBwWE1tZDJXVWhUUjBwTVRHSkJjQzE2YzNCUGVtbHFPRXQxYWxKVGFqQkdORVZMZFUxM01ucHlUR2swVm1kb01tUktRVlkyYldSemNrMVVXVmhhYlVOdVZEQXpjekJpYmxKR1JIUnpSVzVqVlhGNU5rZHZSbFp1Tm01eVlWZG9OSFpLZGt3MVZsZ1NGM2RwZW1SaGNrdFRTVFJYTlhKbVkxQjRUbVpPYzFGVkdpSkJSSE55T1daU1R6aEZXRkpVY1Y5Q1MzTjFjekZ4WkdoVmIzSlpaRVpuT0ZCUg",
+    "scraped_at": "2026-10-24T22:10:14.021178+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero de Infraestructura Jr - Ingeniero de Sistemas Jr - Ingeniero de Data Center y Cloud - Cloud Operations Engineer Jr. - Analista de Infraestructura y Cloud",
+    "company": "Michael Page",
+    "description": "Descripción\n\n• Administrar y dar soporte a servidores Windows y Linux en ambientes empresariales.\n• Resolver incidentes escalados por Service Desk y NOC relacionados con infraestructura y sistemas.\n• Ejecutar actividades de administración de servidores, accesos, recursos, certificados y tareas programadas.\n• Brindar soporte a plataformas de virtualización VMware y Hyper-V.\n• Monitorear y gestionar procesos de backup, recuperación y continuidad operativa.\n• Atender alertas de monitoreo, realizar diagnósticos iniciales y escalar casos cuando sea necesario.\n• Apoyar actividades de parcheo y mantenimiento de servidores.\n• Participar en tareas de administración cloud sobre Azure y AWS.\n• Documentar procedimientos, cambios e incidentes siguiendo buenas prácticas ITIL.\n• Participar en ventanas de mantenimiento programadas y esquemas de guardias/on-call.\nIdiomas (Requisito Clave)\n\n• Español avanzado o nativo.\n• Inglés avanzado (B2+/C1) verbal y escrito.\n• Portugués intermedio a avanzado.\n• Buscamos una persona trilingüe (Español, Inglés y Portugués), capaz de interactuar con usuarios y equipos técnicos en múltiples países de América.\n\nPerfil buscado (h/m)\n\nPara aplicar a esta vacante debes cumplir los siguientes requisitos:\n• Formación en ingeniería de sistemas, informática o carreras afines.\n• Conocimientos en gestión de servidores, plataformas en la nube e infraestructura middleware.\n• Experiencia en configuración y manejo de soluciones IAM.\n• Habilidades para resolver problemas técnicos y trabajar en equipo.\n• Manejo de herramientas de monitoreo y administración de sistemas.\n\nQué Ofrecemos\n\n• Cobertura en salud y seguro médico.\n• Contrato a término indefinido.\n\nSi tu perfil se ajusta a la vacante, te invitamos a postularte.",
+    "url": "https://co.expertini.com/job/ingeniero-de-infraestructura-jr-ingeniero-de-sistemas-jr-ingeniero-de-data-center-y-cloud-cloud-operations-engineer-jr-analista-de-infraestructura-y-cloud-bogota-michael-page-637869221316067877/",
+    "location": "Bogotá     •  a través de Colombia Jobs Expertini",
+    "source": "jsearch",
+    "external_id": "WU1zQkhtMEpjY0kydy1pWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTalk1ZVdaVVluQmxVbmxRZVd0cFdHSXlYMDFxWW5jME5reDBTRUpZYVdOdlNGUkRiMnBxY1VSWFQyVktYMDA1T1VwRFNXNHRSVU10V1V4UmJGTkxNWGRvTTFCbVpHdzJRM1JpV0ZsSGNHVjNWbWhyYVhsek5XVmxVMVV5U0hwd2FqZEdhMlJuTlRSaU1HSmxXblppYWpkR1ZFNHlObTVuVkVaeGFYbFpOVUUyZERkblprOFNGM2RwZW1SaGNrdFRTVFJYTlhKbVkxQjRUbVpPYzFGVkdpSkJSSE55T1daUlVIVkVUMFF0VG1nM01WQnRlR1pSYWt0RWQwbEVUbkpWWTBKQg",
+    "scraped_at": "2026-10-24T22:10:14.021178+00:00",
+    "status": "new"
+  },
+  {
+    "title": "desarrollador software - Desarrollador Full Stack Junior",
+    "company": "DASHFLEET S.A.S.",
+    "description": "Buscamos Desarrollador(a) Full Stack Junior con conocimientos y experiencia práctica en desarrollo web utilizando Angular y Laravel, interesado(a) en continuar creciendo profesionalmente y participar en proyectos de desarrollo y mantenimiento de aplicaciones.\nLa persona seleccionada deberá contar con bases sólidas en frontend y backend, manejo de bases de datos y conocimientos básicos de infraestructura y despliegue.\n\nRequisitos técnicos\nFrontend\n• Experiencia desarrollando aplicaciones con Angular v16 o superior.\n• Conocimientos básicos de RxJS.\n• Buenas prácticas en arquitectura y desarrollo de componentes.\n• Capacidad para consumir APIs REST.\n• Conocimientos en autenticación mediante JWT.\nBackend\n• Experiencia con Laravel v9 o superior.\n• Conocimientos en:\no Controladores y rutas.\no Eloquent ORM.\no Validaciones.\no Desarrollo de APIs.\n• Familiaridad con migraciones.\n• Conocimientos básicos de testing con PHPUnit.\nBases de datos\n• Conocimiento práctico de PostgreSQL:\no Creación y manejo de tablas.\no Relaciones.\no Consultas básicas.\n• Familiaridad con MongoDB:\no Inserción de documentos.\no Búsquedas.\no Estructura y manejo de documentos.\nInfraestructura y DevOps\n• Conocimientos básicos de Google Cloud Platform (GCP), especialmente App Engine o Cloud Run.\n• Manejo de Git y familiaridad con flujos de trabajo colaborativos.\n• Conocimientos básicos de Docker.\n• Experiencia o familiaridad con despliegues simples.\n\n¿Qué ofrecemos?\n• Modalidad de trabajo híbrida en Bogotá.\n• Jornada laboral de lunes a viernes de 8:00 a. m. a 5:00 p. m.\n• Dos sábados al mes de 8:00 a. m. a 12:00 p. m.\n• Oportunidad de crecimiento y aprendizaje en desarrollo Full Stack.\n• Participación en proyectos utilizando tecnologías modernas de frontend, backend, bases de datos y nube.\n\n-Requerimientos- Educación mínima: Universidad / Carrera técnica\n2 años de experiencia\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-software-desarrollador-full-stack-junior-en-bogota-dc-778F1A822628F37E61373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TnRWWFQ0OFlXN2t1a1JkTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzlOTVU4NVF6RXpUa0l3VjNORU5UZEdjbE5NY0hCWWFIZDJVekZtUWpCUFVYbDZORUl6VFhSYVgwaHdibkpoV0U4NGVsZGphWEoyWlRGSFJFUnBUMjlFU0VKTlNFY3hiR056TmpGQlNqaHphRWgwZEZSRFFqVnlaalV0VkVaSFZFUjBZMHczWldaUFlXWkRUWGRrY1dkZldrNVpNV1JQTmtkWlJuQndOVVJUWW05NGFVSVNGM2w1ZW1SaGNtMUZTMG8yVEhKMVJWQTRjVkJYYlZGekdpSkJSSE55T1daVFgwSXlhRmxwU0RoVFNFZFNka28xVVRGSWJtWkljbU5rTlZObg",
+    "scraped_at": "2026-10-24T22:10:22.153774+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Junior Full-Stack Developer for Internal Tools (React/Astro)",
+    "company": "EnsembleIQ, Inc.",
+    "description": "EnsembleIQ, Inc. is seeking a junior full-stack developer to build internal tools, workflows, and websites using Astro and React. You will collaborate on backend logic, work with databases, and contribute to end-to-end features in a fast-paced team environment.\n\nIdeal candidates have 1–3 years of professional software development experience, strong HTML5/CSS3, and modern JavaScript/TypeScript skills. This role is based in Colombia with opportunities to learn and grow in a collaborative setting.",
+    "url": "https://www.jobleads.com/co/job/junior-full-stack-developer-for-internal-tools-react-astro--colombia--e5e4ee7cd4b848a8ea414224d42023ccc",
+    "location": "Colombia     •  a través de JobLeads",
+    "source": "jsearch",
+    "external_id": "TEhyX05DVXlxOVBsNDB3OUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbmczVWpkZlJHdG1OakZUVjI4eU5tcDFkVzFGU3poc2QxOTJXbnBCYjA1c1ZHRnVibUZLWlhOdk9WSlJVbGgyZUdSZlpUSmFNRVpPVmpGek5FNHhjVUUzZFhaaVZGaEtTbHA0ZUVGT0xUZHRla2w1WlV0VFQycHJlR2gzYVhaMlpESnFSMHBHYUhObFNEZHhiRmx5UTFkdVdWaDVZbUZvTlRsbGVXbHNjRFptWmtKb1ZGZ1NGM2w1ZW1SaGNtMUZTMG8yVEhKMVJWQTRjVkJYYlZGekdpSkJSSE55T1daU1FURnVTVk4zUlhWUlUxSlBVRzFGTFVaaFMySkRjSFpwV1Y5Ug",
+    "scraped_at": "2026-10-24T22:10:22.153774+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Full Stack Ssr",
+    "company": "SIIGO S.A.S",
+    "description": "Únete a Siigo y ayuda a transformar la forma en que miles de empresas operan en tecnología.\n\nEn Siigo te espera para revolucionar el mundo digital. Si eres un Full Stack Ssr con ganas de crear y crecer, ¡esta es tu oportunidad\n\nTus retos:\n\nEstas orientado a nuevas tecnologías, con experiencia en el desarrollo utilizando Visual Basic, JavaScript, GO, Mongo, Python, Kafka y Node.js. Deberás gestionar tanto los requerimientos funcionales como los no-funcionales, así como la documentación y la computación en la nube. Es esencial tener conocimientos en SQL y NoSQL, desarrollo Backend (Net Framework/.Net Core), FrontEnd (Angular, React) y Web Components. Además, se valorará tu experiencia en arquitecturas de software, DevOps (CI/CD), pruebas unitarias, Kubernetes y microservicios.\n\n¿Que necesitamos de ti?\n• Carreras Tecnológicas y profesional enfocadas a la Administración, Ingeniería y/ o afines.\n• Tienes 2 años de experiencia como mínimo en desarrollo de software en tecnologías como .Net Core, React, Microservicios, Bases de datos y Patrones de diseño .\n• Cuentas con conocimiento en arquitecturas de software, Devops (CI/CD), Pruebas Unitarias, Kubernetes y Microservicios\n\nLo que ofrecemos:\n• Modalidad de trabajo 100% remoto desde cualquier lugar de Colombia.\n• Horario: Lunes a viernes de 08:00 am a 05:30 pm\n• Contrato a término indefinido directo con la compañía, más beneficios.\n\nTe proponemos:\n• Ser parte de una compañía que transforma vidas, promoviendo una cultura de excelencia basada en propósito, valores y habilidades.\n• Disfrutar de un Plan de Beneficios, Bienestar y Balance, que integra nuestra vida dentro y fuera de la compañía, creando experiencias de felicidad para colaboradores y sus familias.\n• Interés y apoyo en tu aprendizaje continuo, crecimiento profesional y personal.\n• Disfrutar haciendo lo que te gusta y logrando resultados increíbles.\n• Ser tú mismo y vivir en un ambiente de trabajo inclusivo y diverso.",
+    "url": "https://co.jooble.org/jdp/-7202728979723959403",
+    "location": "Bogotá     •  a través de Jooble",
+    "source": "jsearch",
+    "external_id": "TGlMd3FNMlI1M3E2VHF4R0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbnByVTFCNlVVNTZWM1ZIWlVSQmNGUTNkRU15U25SdFJGaGlSV2MzV1RremJHZGpSamxpVlY5RVNEVkpWVFIyY1V4T1NUUlBiMGwzTlhSSmNXTjVhV3hZWkY5UVVYVXhhRk5DTWxaS1VHTmZjMkZIU0U5S1kxVTNUVXBaTVVWNFJ6QjNkUzExYzBjeWVVZFFUbGhQTWs1WlJHbHZVV1kzUjE5Rk5UZE1RbWt3WHpFMlEzY1NGM2w1ZW1SaGNtMUZTMG8yVEhKMVJWQTRjVkJYYlZGekdpSkJSSE55T1daUk1XZHpRVWxWYVhkNVVqUlRSSFJLVVhsaVRXRkZXbmw1Y0haQg",
+    "scraped_at": "2026-10-24T22:10:22.153774+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador Junior - Cúcuta",
+    "company": "TOTALTEAM EST SAS",
+    "description": "Importante empresa requiere para su equipo de trabajo Desarrollador(a) Junior en Bogotá, tecnólogo(a) o estudiante desde sexto semestre de Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Informática o carreras afines, con mínimo 1 año de experiencia en desarrollo de software. Debe contar con conocimientos en PHP, bases de datos, desarrollo web y de aplicaciones móviles, automatización de procesos, inteligencia artificial y patrón Modelo-Vista-Controlador (MVC). Será responsable del desarrollo, mantenimiento y mejora de aplicaciones, corrección de errores, soporte a plataformas internas y participación en proyectos tecnológicos. Se requiere una persona con capacidad de análisis, disposición para aprender y orientación al trabajo en equipo.\nSalario: $2.000.000 + auxilio de transporte + prestaciones de ley.\nHorario: lunes a viernes de 8:15 a. m. a 5:39 p. m. y sábados de 8:00 a. m. a 10:00 a. m. Contrato: obra o labor, pago mensual y posibilidad de crecimiento laboral a partir de los 6 meses, según desempeño.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nConocimientos: Base de datos, Desarrollo web, Ingeniería, Ingeniería de sistemas, Ingeniería de software, Php, Programacion\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-junior-cucuta-en-cucuta-3C2B22E5134CFF1561373E686DCF3405",
+    "location": "Cúcuta, Norte de Santander     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TUhxMEpTRmNRc0ZWel84RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGc0V2xkVFlsaFZSa1o0VlZsTFRtb3dVM3BEZVdJdE1YTmpkVzlPTmtzMk1sQmhUbVpWWVY4eFNqQnBTR3QyYURNMmNtUnVTSEJRZVdnNVJHMU5Obk5VYmpSdFdIcExabEY2UzBwemNWUnlSVVZ4ZURWak1GQkplbTR0TVRkUFFpMWtkbVV3VVdkTVFrOTFSWEkwZVhBMVEzVnZjR3hyWVhRellUVm1SWFZ6ZFdGQlgyNFNGM2w1ZW1SaGNtMUZTMG8yVEhKMVJWQTRjVkJYYlZGekdpSkJSSE55T1daVWNWcERWMHBIU1hGdGJFNW5kMmd0WkVSNGFXMVlUbGRqWm0xUg",
+    "scraped_at": "2026-10-24T22:10:22.153774+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador(a) Full Stack Junior! - en Bogota",
+    "company": "EDICIONES PERIODISTICAS DIARIO DEL SUR S.A.S",
+    "description": "Estamos en búsqueda de talento para unirse a nuestro equipo de tecnología y participar en el desarrollo de soluciones de software y plataformas empresariales.\n\nConocimientos técnicos:\n\n- JavaScript y TypeScript.\n- Angular o frameworks frontend similares.\n- Node.js y conocimientos en NestJS.\n- Bases de datos SQL, preferiblemente PostgreSQL.\n- Desarrollo y consumo de APIs REST.\n- Git y GitHub.\n- Manejo de herramientas de inteligencia artificial aplicadas al desarrollo de software (Codex, Kiro, Copilot, Gemini o similares).\n\nSerá un plus tener conocimientos en:\n\n- Docker y entornos Linux.\n- Arquitectura de software.\n- Servicios de AWS.\n- Pruebas y buenas prácticas de desarrollo.\n\n¿Qué buscamos?\n\nUna persona con pensamiento lógico, capacidad de aprendizaje, iniciativa y criterio técnico para utilizar la inteligencia artificial como apoyo en la programación, depuración y optimización de código.\n\nNo es necesario dominar todas las tecnologías. Valoramos los fundamentos de programación, los proyectos personales y la disposición para aprender.-Requerimientos- Educación mínima: Universidad / Carrera técnica\n2 años de experiencia\nConocimientos: Autoaprendizaje, Angular, Atracción de talento, Base de datos, Conocimiento técnico, Javascript, Plataformas, Tecnología, Web, Desarrollo de soluciones\nPalabras clave: jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-full-stack-junior-en-bogota-en-bogota-dc-0E7DACDB7310A90661373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "bEpjSE1PZVVXSm0za09OMUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUpVT0VOeFZIWlVZV2hGYjBjM1ZXRnZYM1JqUkRnMFZ6aDZjMUpwTVROMVZFOVhTRVpoUVROeFIxOW5XREpJV0V4cmFXdFpRVFZZWVRGTmJtOTBjekJCYlZsWGNIRlBSVkkzWDNBeE5uRlFOVXhZUkVsMWEyNDVkVXhvTTJKTlZuTmhaekk1TWxWcGRtaFlPSEo2Y1VZNVIyWlBVa1F4V2pKM1FsVlJiVjlLWVVZNWVVOFNGekZEZW1SaGIyVnFSazAyTVhGMGMxQTNOMWd3YzFGckdpSkJSSE55T1daUllVdFZTMWhoVFRkVllsUm5WWFpLWTFabVNGWlFNMWhpT0RGbg",
+    "scraped_at": "2026-10-24T22:10:30.829243+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador FullStack (React + React Native + Java + AWS)",
+    "company": "Sofka Technologies",
+    "description": "✨ ¿Estás buscando nuevos desafíos y un lugar donde puedas disfrutar de un ambiente cercano mientras aprendes constantemente?\n\n¡Bienvenido a un equipo con un propósito claro: \"TRANSFORMAR la vida de las personas siendo el aliado TECNOLÓGICO más confiable\"! 🚀\n\n¡Prepárate y únete a esta aventura!\n\n¿Qué encontrarás?\n\n• Retos técnicos y personales que te mantendrán en constante crecimiento.\n• Un equipo conectado, enfocado en tu bienestar físico y mental.🌱\n• Cultura de mejora continua, fresca y colaborativa, con oportunidades de aprendizaje y gente dispuesta a apoyarte.\n• KaizenHub, un programa diseñado para potenciar tus talentos, con feedback, mentorías y coaching a través de Sofka U. ¡Será un reto y un juego a la vez! 🧠\n• Programas como Happy Kaizen y WeSofka que cuidan tu bienestar físico y emocional.\n\n¿Qué buscamos?\n\nUn Desarrollador FullStack con más de 3 años de experiencia en desarrollo de aplicaciones web y móviles, apasionado por la ingeniería de software y con sólidos conocimientos en React y Java. Buscamos a un profesional dinámico y adaptable, capaz de gestionar múltiples iniciativas y transformar requerimientos de negocio en soluciones escalables.\n\nSi quieres desafiar tus límites, colaborar con equipos multidisciplinarios de alto nivel y construir tecnología robusta que impacte directamente en nuestros clientes, ¡esta oportunidad es para ti!\n\nResponsabilidades\n\n• Desarrollar y mantener aplicaciones web y móviles utilizando React y tecnologías Java.\n• Implementar componentes frontend interactivos con React para entornos web y React Native para plataformas móviles.\n• Desarrollar servicios y APIs REST robustos y eficientes utilizando Java SpringBoot (y deseablemente Quarkus).\n• Participar en el diseño e implementación de soluciones técnicas bajo las mejores prácticas y arquitecturas del sector.\n• Integrar aplicaciones con servicios, componentes e infraestructura en la nube de AWS.\n• Realizar mantenimiento correctivo y evolutivo garantizando el rendimiento y la seguridad de las soluciones.\n• Trabajar de manera colaborativa con equipos multidisciplinarios de desarrollo, arquitectura, QA y negocio.\n\nRequisitos\n\n• Formación: Profesional o profesional en formación en Ingeniería de Sistemas, Computación, Software o carreras afines.\n• Experiencia: Experiencia demostrable como Desarrollador Full Stack gestionando ciclo de vida completo de aplicaciones web y móviles, trabajando con arquitecturas orientadas a servicios y metodologías ágiles.\n\nConocimientos Técnicos\n\n• Java y Framework SpringBoot (deseable Quarkus)\n• React y React Native\n• Desarrollo e integración de APIs REST\n• Servicios y componentes de Amazon Web Services (AWS)\n• Control de versiones con Git\n• Buenas prácticas de arquitectura, patrones de diseño y código limpio\n\n¡PRESENTATE y sé parte de esta historia!\n\nCondiciones\n\n• Debes tener disponibilidad para trabajar calendario Honduras.\n• Contrato a término indefinido o Contractor ¡Queremos relaciones a largo plazo y que seas parte de nuestra familia por mucho tiempo!\n• ¿Buscas crecimiento profesional? En Sofka, te ofrecemos un ecosistema de aprendizaje con múltiples herramientas para cerrar brechas y potenciar tus habilidades. ¡Tú decides cómo quieres crecer!",
+    "url": "https://co.linkedin.com/jobs/view/desarrollador-fullstack-react-%2B-react-native-%2B-java-%2B-aws-at-sofka-technologies-4481695169",
+    "location": "Medellín, Antioquia     •  a través de LinkedIn",
+    "source": "jsearch",
+    "external_id": "VUxmWmpkb3ZEVWxOLUllbEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekZ5WVhGd05qUm1TRlZ6Y0haVWNtdGlWR3BqYmt0aE5qaFpaWGRHU2xSS1lXSTJTMU5sVjB0UWNsaHNVRXRwWDNsZmNDMWxkUzFGWjNKbGNXdHNXaTA1Y0dOWlJDMVNTbk5LZDFocVNsWXplbXRzZG1wb1Uza3phWGs1VTFnM1ZtcExkRVV0Y0hGNmNtOXhjbVZ3TVc1UVlXMHhaRzVHUVZGNmJVSndlVVZaYVd4SGRpMFNGekZEZW1SaGIyVnFSazAyTVhGMGMxQTNOMWd3YzFGckdpSkJSSE55T1daVGNXOUtWRzlSTkVwaGNYRktjbXhwU1ZRMGVtNTRNRTR6TW5sUg",
+    "scraped_at": "2026-10-24T22:10:30.829243+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador(a) Full Stack  Angular y Node.js Bogotá",
+    "company": "Colserauto SA",
+    "description": "¿Te apasiona la tecnología, el desarrollo de software y la creación de soluciones innovadoras?\nEn Colserauto buscamos un(a) Desarrollador(a) Full Stack que quiera aportar al desarrollo y evolución de nuestras aplicaciones, participando en la construcción de soluciones tecnológicas que contribuyan a la transformación digital del negocio.\nSi tienes experiencia desarrollando aplicaciones web, integrando servicios y trabajando con tecnologías frontend y backend, esta oportunidad puede ser para ti.\nRequisitos:\nTecnólogo(a) o profesional en Ingeniería de Sistemas, Ingeniería de Software o carreras afines.\nExperiencia mínima de 2 años como desarrollador(a) Full Stack.\nConocimientos en lenguajes de programación como JavaScript, C o Python.\nManejo de Angular para desarrollo frontend.\nConocimientos en Node.js y Express para desarrollo backend.\nConocimientos básicos de HTML, CSS, JSON y APIs REST.\nFamiliaridad con bases de datos relacionales como SQL Server, MySQL o PostgreSQL.\nConocimientos básicos de metodologías ágiles como Scrum o Kanban.\nDeseable conocimiento en implementación de soluciones con inteligencia artificial.\n¿Qué ofrecemos?:\nTipo de contrato: Termino Indefinido\nSalario: $3.300.000 con prestaciones de ley + Beneficios de la Compañía\nHorario: Lunes a Viernes de 08:00am - 05:00pm\nModalidad y ubicación: Presencial - Morato\nResponsabilidades:\nDesarrollar y mantener aplicaciones web utilizando Angular para el frontend y Node.js con Express para el backend.\nImplementar componentes, servicios y módulos siguiendo buenas prácticas de programación y arquitectura de software.\nDiseñar e integrar APIs REST para facilitar la comunicación entre módulos y servicios externos.\nParticipar en la implementación de soluciones con componentes de inteligencia artificial, orientadas al análisis, reconocimiento o automatización.\nTrabajar colaborativamente con analistas, diseñadores y el equipo de Business Intelligence (BI) para integrar los módulos desarrollados.\nAplicar buenas prácticas de codificación, control de versiones y aseguramiento de la calidad del software.\nContribuir a la mejora continua de las aplicaciones, garantizando su funcionalidad, rendimiento, seguridad y escalabilidad.\nCumplir los procedimientos y lineamientos corporativos relacionados con la seguridad de la información, la protección de datos y la gestión de calidad.\nSi quieres poner tus conocimientos tecnológicos al servicio de proyectos de transformación e innovación, y participar en el desarrollo de soluciones que generen valor para el negocio, ¡queremos conocerte!\nPostúlate y haz parte de nuestro equipo.-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n2 años de experiencia\nConocimientos: Resolución de problemas",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-full-stack-angular-y-nodejs-bogota-en-bogota-dc-21C04B15B08016DC61373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "bU9fOE1jYUdqN2psWDlleEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0l4TFhveVJFa3pSMVp3TkVGVVlVaDJlazk0YkhSWVZWUXdRbTh3YUd4eFVYSm1TVVZqTVZCZlJDMW5ZVXR2Y0RNNGQyMVhWVXQ2WmtKVWR6ZFJkV2RhZFhkM2IwaFpkekpEV0hZMVNFNWhRbHBoTXpKZlZGUlNVMnd6Ymt4emFtdHhWRTFCU21kVlNrdzNMVU5aVDFCV2JVcGtUbmxYUVU1YU1IRXdaRUZ0VkMxTWQyb1NGekZEZW1SaGIyVnFSazAyTVhGMGMxQTNOMWd3YzFGckdpSkJSSE55T1daVVYzZzVVRWh3U0ZOMmEydHpSa2QzV25OdFVXbDNNWEJGTms1Qg",
+    "scraped_at": "2026-10-24T22:10:30.829243+00:00",
+    "status": "new"
+  },
+  {
+    "title": "desarrollador software - Desarrollador Full Stack Junior",
+    "company": "DASHFLEET S.A.S.",
+    "description": "Buscamos Desarrollador(a) Full Stack Junior con conocimientos y experiencia práctica en desarrollo web utilizando Angular y Laravel, interesado(a) en continuar creciendo profesionalmente y participar en proyectos de desarrollo y mantenimiento de aplicaciones.\nLa persona seleccionada deberá contar con bases sólidas en frontend y backend, manejo de bases de datos y conocimientos básicos de infraestructura y despliegue.\n\nRequisitos técnicos\nFrontend\n• Experiencia desarrollando aplicaciones con Angular v16 o superior.\n• Conocimientos básicos de RxJS.\n• Buenas prácticas en arquitectura y desarrollo de componentes.\n• Capacidad para consumir APIs REST.\n• Conocimientos en autenticación mediante JWT.\nBackend\n• Experiencia con Laravel v9 o superior.\n• Conocimientos en:\no Controladores y rutas.\no Eloquent ORM.\no Validaciones.\no Desarrollo de APIs.\n• Familiaridad con migraciones.\n• Conocimientos básicos de testing con PHPUnit.\nBases de datos\n• Conocimiento práctico de PostgreSQL:\no Creación y manejo de tablas.\no Relaciones.\no Consultas básicas.\n• Familiaridad con MongoDB:\no Inserción de documentos.\no Búsquedas.\no Estructura y manejo de documentos.\nInfraestructura y DevOps\n• Conocimientos básicos de Google Cloud Platform (GCP), especialmente App Engine o Cloud Run.\n• Manejo de Git y familiaridad con flujos de trabajo colaborativos.\n• Conocimientos básicos de Docker.\n• Experiencia o familiaridad con despliegues simples.\n\n¿Qué ofrecemos?\n• Modalidad de trabajo híbrida en Bogotá.\n• Jornada laboral de lunes a viernes de 8:00 a. m. a 5:00 p. m.\n• Dos sábados al mes de 8:00 a. m. a 12:00 p. m.\n• Oportunidad de crecimiento y aprendizaje en desarrollo Full Stack.\n• Participación en proyectos utilizando tecnologías modernas de frontend, backend, bases de datos y nube.\n\n-Requerimientos- Educación mínima: Universidad / Carrera técnica\n2 años de experiencia\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-software-desarrollador-full-stack-junior-en-bogota-dc-778F1A822628F37E61373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TnRWWFQ0OFlXN2t1a1JkTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURFJmTmxab1YxRnFXVlJuZEVWWU5WWm1WalZpU0dwUWVWTkdWRWM0V1VkdGExOTNXazl5WW5SSlZVVlFRM2RPWVdaM2FUTmtkWGRwUW1Kb1pEZHFOVGg0T0RCZlJYVTVURTVIVUVjNVRtOW5iSHBsV0Y5dlV6TjNaRlJWYWt4S1NHWktOVVp5WjBWUmIycGlWaloxWTBwVWJXOURjR0oxUW1vek1XYzFaRGh2TjB0a1lsY1NGekZEZW1SaGIyVnFSazAyTVhGMGMxQTNOMWd3YzFGckdpSkJSSE55T1daVE5IcHZhSHBQTlZkT05GVlZRV3hzYkV0MloydHFUbGh5UzJwMw",
+    "scraped_at": "2026-10-24T22:10:30.829243+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador Junior - Cúcuta",
+    "company": "TOTALTEAM EST SAS",
+    "description": "Importante empresa requiere para su equipo de trabajo Desarrollador(a) Junior en Bogotá, tecnólogo(a) o estudiante desde sexto semestre de Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Informática o carreras afines, con mínimo 1 año de experiencia en desarrollo de software. Debe contar con conocimientos en PHP, bases de datos, desarrollo web y de aplicaciones móviles, automatización de procesos, inteligencia artificial y patrón Modelo-Vista-Controlador (MVC). Será responsable del desarrollo, mantenimiento y mejora de aplicaciones, corrección de errores, soporte a plataformas internas y participación en proyectos tecnológicos. Se requiere una persona con capacidad de análisis, disposición para aprender y orientación al trabajo en equipo.\nSalario: $2.000.000 + auxilio de transporte + prestaciones de ley.\nHorario: lunes a viernes de 8:15 a. m. a 5:39 p. m. y sábados de 8:00 a. m. a 10:00 a. m. Contrato: obra o labor, pago mensual y posibilidad de crecimiento laboral a partir de los 6 meses, según desempeño.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nConocimientos: Base de datos, Desarrollo web, Ingeniería, Ingeniería de sistemas, Ingeniería de software, Php, Programacion\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-junior-cucuta-en-cucuta-3C2B22E5134CFF1561373E686DCF3405",
+    "location": "Cúcuta, Norte de Santander     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TUhxMEpTRmNRc0ZWel84RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR3BmVkV3d2JVOVRNemhKZEdkd09FUlNNblZqUWpsemNFY3hUbTAzU1dWTVpUZFNPV2d4V0hVNFJ6bE9jMnRqVUd4d05VaFNOWGd5UjBOM2RqaHNTVmxZY1VSYVRFWmlUR3RFUVdKd2JVZFdialJTVGxOMWJUQlhOakZEVERKQ04zWlBZMHBFTjB4UVJqSXRSMGRMWjBGekxVUlhkSFJEV21GUmIwTTRRamN3YkU1T1Z6VVNGek5EZW1SaGNVdHJTR0pQTkhKMVJWQjJjRmhTYlVFNEdpSkJSSE55T1daUmVXZFlkVVJxYURWWFkxVm9aSEEyUjFwVlFXMVJYMU10VGsxQg",
+    "scraped_at": "2026-10-24T22:10:39.763000+00:00",
+    "status": "new"
+  },
+  {
+    "title": "desarrollador software - Desarrollador Full Stack Junior",
+    "company": "DASHFLEET S.A.S.",
+    "description": "Buscamos Desarrollador(a) Full Stack Junior con conocimientos y experiencia práctica en desarrollo web utilizando Angular y Laravel, interesado(a) en continuar creciendo profesionalmente y participar en proyectos de desarrollo y mantenimiento de aplicaciones.\nLa persona seleccionada deberá contar con bases sólidas en frontend y backend, manejo de bases de datos y conocimientos básicos de infraestructura y despliegue.\n\nRequisitos técnicos\nFrontend\n• Experiencia desarrollando aplicaciones con Angular v16 o superior.\n• Conocimientos básicos de RxJS.\n• Buenas prácticas en arquitectura y desarrollo de componentes.\n• Capacidad para consumir APIs REST.\n• Conocimientos en autenticación mediante JWT.\nBackend\n• Experiencia con Laravel v9 o superior.\n• Conocimientos en:\no Controladores y rutas.\no Eloquent ORM.\no Validaciones.\no Desarrollo de APIs.\n• Familiaridad con migraciones.\n• Conocimientos básicos de testing con PHPUnit.\nBases de datos\n• Conocimiento práctico de PostgreSQL:\no Creación y manejo de tablas.\no Relaciones.\no Consultas básicas.\n• Familiaridad con MongoDB:\no Inserción de documentos.\no Búsquedas.\no Estructura y manejo de documentos.\nInfraestructura y DevOps\n• Conocimientos básicos de Google Cloud Platform (GCP), especialmente App Engine o Cloud Run.\n• Manejo de Git y familiaridad con flujos de trabajo colaborativos.\n• Conocimientos básicos de Docker.\n• Experiencia o familiaridad con despliegues simples.\n\n¿Qué ofrecemos?\n• Modalidad de trabajo híbrida en Bogotá.\n• Jornada laboral de lunes a viernes de 8:00 a. m. a 5:00 p. m.\n• Dos sábados al mes de 8:00 a. m. a 12:00 p. m.\n• Oportunidad de crecimiento y aprendizaje en desarrollo Full Stack.\n• Participación en proyectos utilizando tecnologías modernas de frontend, backend, bases de datos y nube.\n\n-Requerimientos- Educación mínima: Universidad / Carrera técnica\n2 años de experiencia\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-software-desarrollador-full-stack-junior-en-bogota-dc-778F1A822628F37E61373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TnRWWFQ0OFlXN2t1a1JkTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbHBZYzBsQ1ZXUlRRVlJSUkRaMk1FSnFTMjFHV2kxd1kweFNjVWcxTVdSQ2RXdzBZMlpmZVd4dExWSlJUblI0YWtWM1dHTnpWWFZVYTBKSGRXMXRkVk40VEdrNFdEUm5TM0J1TFRaUWIwWTRiV1JrUWxsTFJEVjFWM1p1T1ZveVZVdG9hbXgyWnpNNGRYRkRVVmx2UjB4SFJYbG1ZUzFaVnpoME4xUTFSeTExYVdoV1Eyc1NGek5EZW1SaGNVdHJTR0pQTkhKMVJWQjJjRmhTYlVFNEdpSkJSSE55T1daVVVuZEhPVlpLVDJsMVRGZFNWRkYzVjJSRE1HNW5Rak4wWTJwUg",
+    "scraped_at": "2026-10-24T22:10:39.763000+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador .NET Junior con Enfoque en SQL Server",
+    "company": "Ofertasynegocios",
+    "description": "Ofertasynegocios busca un Ingeniero.NET junior ubicado en Bogotá, Colombia, para apoyar el desarrollo de soluciones en .NET y SQL Server. Se valoran estudiantes avanzados o tecnólogos en Ingeniería de Sistemas y áreas afines, con interés en networking y proyectos de TI.\n\nEl candidato debe tener al menos 2 años de experiencia o capacidad de liderar proyectos o roles relacionados, y aportar en la preventa técnica y en la implementación de soluciones de integración de datos.",
+    "url": "https://www.jobleads.com/co/job/desarrollador-net-junior-con-enfoque-en-sql-server--bogota--eb0b0cc5f21eac68f07b6905bfef18c07",
+    "location": "Bogotá     •  a través de JobLeads",
+    "source": "jsearch",
+    "external_id": "ZUl6dFFzVjBjOWo0UGZmM0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0YzUVVoZmRVWlNla2wzZG00dFRuaHRjbTQxWXpKYVRqRkplVnBpWTJScVgzUjJjV3hGZW5aMlpqSjJRbWxaY1RaNVVtaENZMTk0V1RsRWEwcGZUWGhSVFRGaGFYUnBPVWxEWDJSdVlXTlpaRzAxTFd0b2JrcG9WMUJRYWxobFRrZzBXWGhLUTJ4cWNFWjBjSFpXYmpCTGJEVlNhbTA1Wm5wNUxXOVNRVFJxYlVwSU9FNFNGek5EZW1SaGNVdHJTR0pQTkhKMVJWQjJjRmhTYlVFNEdpSkJSSE55T1daUlMwVnNkbk5HUVdKdWQySlVNSG81UkZkcWVrdHJORkV5Y21obg",
+    "scraped_at": "2026-10-24T22:10:39.763000+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador(a) Full Stack Junior! - en Bogota",
+    "company": "EDICIONES PERIODISTICAS DIARIO DEL SUR S.A.S",
+    "description": "Estamos en búsqueda de talento para unirse a nuestro equipo de tecnología y participar en el desarrollo de soluciones de software y plataformas empresariales.\n\nConocimientos técnicos:\n\n- JavaScript y TypeScript.\n- Angular o frameworks frontend similares.\n- Node.js y conocimientos en NestJS.\n- Bases de datos SQL, preferiblemente PostgreSQL.\n- Desarrollo y consumo de APIs REST.\n- Git y GitHub.\n- Manejo de herramientas de inteligencia artificial aplicadas al desarrollo de software (Codex, Kiro, Copilot, Gemini o similares).\n\nSerá un plus tener conocimientos en:\n\n- Docker y entornos Linux.\n- Arquitectura de software.\n- Servicios de AWS.\n- Pruebas y buenas prácticas de desarrollo.\n\n¿Qué buscamos?\n\nUna persona con pensamiento lógico, capacidad de aprendizaje, iniciativa y criterio técnico para utilizar la inteligencia artificial como apoyo en la programación, depuración y optimización de código.\n\nNo es necesario dominar todas las tecnologías. Valoramos los fundamentos de programación, los proyectos personales y la disposición para aprender.-Requerimientos- Educación mínima: Universidad / Carrera técnica\n2 años de experiencia\nConocimientos: Autoaprendizaje, Angular, Atracción de talento, Base de datos, Conocimiento técnico, Javascript, Plataformas, Tecnología, Web, Desarrollo de soluciones\nPalabras clave: jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-full-stack-junior-en-bogota-en-bogota-dc-0E7DACDB7310A90661373E686DCF3405",
+    "location": "Bogotá     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "bEpjSE1PZVVXSm0za09OMUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTakZCV2xCQ1JHNWZhVEJVT1d0YVVWTk5SVGxOTmtaNWRVWnJNelJoVTBsVkxVZEhhemx2Y1ZKQlJtaE9VRFpxZUZKUmNETkpVMUJ6ZUdsWFgyZGtXVzUyWW1oeFdFTXljbEJpTFUxMVUwMUpORXRvVlhWd1FtWkhSVzAxYTFoQ1JHWjZTM1pyWkhKQ2RuZE5kVU5HWDFObmVVOHlXSFkwYTBsU1QxTTJObFJQT1ZkVlJUWVNGelZUZW1SaGMzVjNSbDlYT1hKMVJWQmZjMmxhY1ZFNEdpSkJSSE55T1daVU9HVkdNRFpwTkZOelh6aDJhSEphVkRGUWMxUTNNR1JCYzBaMw",
+    "scraped_at": "2026-10-24T22:10:48.876336+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador Junior - Cúcuta",
+    "company": "TOTALTEAM EST SAS",
+    "description": "Importante empresa requiere para su equipo de trabajo Desarrollador(a) Junior en Bogotá, tecnólogo(a) o estudiante desde sexto semestre de Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Informática o carreras afines, con mínimo 1 año de experiencia en desarrollo de software. Debe contar con conocimientos en PHP, bases de datos, desarrollo web y de aplicaciones móviles, automatización de procesos, inteligencia artificial y patrón Modelo-Vista-Controlador (MVC). Será responsable del desarrollo, mantenimiento y mejora de aplicaciones, corrección de errores, soporte a plataformas internas y participación en proyectos tecnológicos. Se requiere una persona con capacidad de análisis, disposición para aprender y orientación al trabajo en equipo.\nSalario: $2.000.000 + auxilio de transporte + prestaciones de ley.\nHorario: lunes a viernes de 8:15 a. m. a 5:39 p. m. y sábados de 8:00 a. m. a 10:00 a. m. Contrato: obra o labor, pago mensual y posibilidad de crecimiento laboral a partir de los 6 meses, según desempeño.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nConocimientos: Base de datos, Desarrollo web, Ingeniería, Ingeniería de sistemas, Ingeniería de software, Php, Programacion\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-junior-cucuta-en-cucuta-3C2B22E5134CFF1561373E686DCF3405",
+    "location": "Cúcuta, Norte de Santander     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TUhxMEpTRmNRc0ZWel84RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURFJhTlV0cWFYbExlbWd3Y2pnNWVXZzRabmh6Wm05Q1ZEUTJPRGw1VVRacVVHdDZlbkpKYnpkelMzZERVSEJKZWxkRVRHWmxha2xUUm5GSVV6aDVMVlZVYlhSaUxWTnRRa3Q0ZFZnMWFrNWZSVVJQUm1aRk9HWlJUbVJ4VmxGamJGYzVTRmxWYTNvM1QyaHpVblJEV21kUlZsQm9UR1ZDV21KRk4zQm1jSFJoUWpKdlRGRVNGelZUZW1SaGMzVjNSbDlYT1hKMVJWQmZjMmxhY1ZFNEdpSkJSSE55T1daUk5IZFdVVVozTmt4RlVFUTRZakpDTlUxTVJIbGhjVEZGT0Vkbg",
+    "scraped_at": "2026-10-24T22:10:48.876336+00:00",
+    "status": "new"
+  },
+  {
+    "title": "PROGRAMADOR DE SOFTWARE JUNIOR",
+    "company": "GESTION COMPETITIVA SAS",
+    "description": "PROGRAMADOR DE SOFTWARE en Bogotá requiere COMPAÑÍA MULTINACIONAL DE SOFTWARE PARA GESTION LOGISTICA Y TRANSPORTE. Tecnico o tecnólogo en sistemas . Con experiencia mínima de 2 años en desarrollo fullstack con dominio de PHP / Javascript/ SQL Server . Contrato inicialmente a término fijo y luego indefinido. Horario de lunes a sábado. Modalidad hibrida.",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/programador-de-software-junior-1886769150",
+    "location": "Bogotá     •  a través de El Empleo",
+    "source": "jsearch",
+    "external_id": "VTRxaEliTXFmMDlfcDhMVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTelJhWTFWelpIRnNRMGRFZG5WRGJ6Uk9TalpMZURSMVJWWkpSa2RPVlRRMWFGWm1SRlZXZVVkVGNXNVBTbE5KYTFWa2VrVmtRV2MyYmpGTVNEaDBVMHBKTm1ZNGVGbDBXRjlVT0VSaVNHMUdaSGRCUzFsMGJuVkVaMFJ4WVhKeVZIRkVUMXBFVVVwRFdYRkVPVTVSUlhCSGVIYzVkR1JPVVcxSFFucEllVFU1ZEhjMVZGSVNGelZUZW1SaGMzVjNSbDlYT1hKMVJWQmZjMmxhY1ZFNEdpSkJSSE55T1daUlpUQnZaMVp2V1ZGWmQyVjVXVWhMWTNKdlkybFFiVFprV1VKMw",
+    "scraped_at": "2026-10-24T22:10:48.876336+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Ingeniero de Software Junior — Ágil en Entorno Corporativo",
+    "company": "ADECCO COLOMBIA S A",
+    "description": "ADECCO COLOMBIA S A busca un Ingeniero de Software Junior para participar en el desarrollo y mantenimiento de aplicaciones dentro de un entorno corporativo nacional, colaborando con equipos multidisciplinarios y siguiendo buenas prácticas de codificación.\n\nEn esta posición, aprenderás metodologías ágiles, herramientas de versionado y procesos de calidad de software, lo que fortalecerá tu perfil profesional y te preparará para futuros roles técnicos dentro de la empresa.",
+    "url": "https://www.jobleads.com/co/job/ingeniero-de-software-junior-agil-en-entorno-corporativo--colombia--eeea46f99c4d98f0fb9ac098141d235b3",
+    "location": "Colombia     •  a través de JobLeads",
+    "source": "jsearch",
+    "external_id": "ajRKN1pLM1ZFM01VRElpV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTelJSY1hsUVpGaFRSMUJzTm1kTFgyazBSRmMyVVU1aU9ISnZNMVJOY1hkcVVESlNVbFZvTkVoSmIxOXFkell5T0VVdFYwdFhaa0kyWDBOdWVWWTFNM0ZFTVdNeU1tbHVMVGhWVDBKUGQxSTJjRzlxZFZSc1dWcFNUSE5vWVcxcE5qRXpRWEJ3YkVWb1IwSkxkSFJxZVVKTVpERXhVM2hFYkdka1MwVkRkbU5ZU0RkNGN6a1NGelZUZW1SaGMzVjNSbDlYT1hKMVJWQmZjMmxhY1ZFNEdpSkJSSE55T1daVFZHVm9hV2d6YW1kWFowaHdkazlpUWxrdFJqUnVWbEl4VldOUg",
+    "scraped_at": "2026-10-24T22:10:48.876336+00:00",
+    "status": "new"
+  },
+  {
+    "title": "SOFTWARE ENGINEER (Junior / Entry Level)",
+    "company": "ADECCO COLOMBIA S A",
+    "description": "SOFTWARE ENGINEER (Junior / Entry Level)\r\n\r\n?? Modalidad: 95% Remoto\r\n?? Salario: $4.000.000 - $4.400.000 + $250.000 de auxilio extralegal\r\n?? Ambiente internacional\r\n?? Lunes a jueves jornada completa y viernes horario reducido\r\n\r\n¿Eres recién graduado y quieres construir una carrera sólida en desarrollo de software?\r\n\r\nBuscamos ingenieros apasionados por la tecnología que tengan excelentes fundamentos de programación y deseen crecer en proyectos donde se combinan el desarrollo de software, la automatización y la interacción con plataformas tecnológicas avanzadas.\r\n\r\nMás que años de experiencia, nos interesa encontrar personas con bases técnicas sólidas, capacidad de análisis y curiosidad por aprender.\r\n\r\n¿Qué esperamos de ti?\r\n\r\n? Profesional recién graduado o con máximo 2 años de experiencia en:\r\n\r\nIngeniería de Sistemas\r\nIngeniería de Software\r\nCiencias de la Computación\r\nIngeniería Informática\r\nCarreras afines\r\n\r\n? Conocimientos en:\r\n\r\nProgramación Orientada a Objetos (OOP)\r\nAPIs REST y protocolos HTTP\r\nDesarrollo Backend (C#, Python o Node.js)\r\nBases de datos relacionales y no relacionales\r\nSQL\r\nConsumo e integración de APIs\r\nManejo de errores y debugging\r\nGit y control de versiones\r\n\r\n? Inglés intermedio (B1+) para lectura de documentación técnica.\r\n\r\nDurante el proceso evaluaremos\r\nFundamentos de desarrollo de software.\r\nEntendimiento de HTTP y arquitectura REST.\r\nDiferencias entre bases de datos relacionales y no relacionales.\r\nProgramación orientada a objetos.\r\nManejo de errores e incidentes en producción.\r\nDiseño e integración de APIs.\r\nCapacidad para resolver problemas y desarrollar código.\r\nPensamiento analítico y buenas prácticas de documentación.\r\nTe dará puntos adicionales si tienes conocimientos en\r\nAngular\r\nWPF\r\nPostgreSQL\r\nMongoDB\r\nSQL Server\r\nOpenGL\r\nArquitectura de computadores\r\nElectrónica, hardware o PCB\r\nLo que encontrarás\r\nProyectos tecnológicos de alto impacto.\r\nExposición a equipos internacionales.\r\nAcompañamiento y aprendizaje continuo.\r\nDesarrollo profesional en entornos de software y tecnología.\r\nExcelente balance vida-trabajo.\r\n\r\nSi te apasiona resolver problemas, construir software de calidad y cuentas con bases sólidas de programación, queremos conocerte. ??",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/software-engineer-junior-entry-level-1886781273",
+    "location": "Colombia     •  a través de El Empleo",
+    "source": "jsearch",
+    "external_id": "TWM2UkVScl9xZzRyS2g4V0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVTVhV1dJeFFtdHJhMFZEUmtoV09YTmhPWFZwVEV0SlJucFlNV1Y0YW1sbVltbGxabU5wWjJ3NVNXcHdUVlZYUVdSUVVHZHNabGREYjNkd2JHSXhTMjFVVjJsWGJFSjFTR1JrUVRZNE5XSkxObWMzY2pWemFXMDVlbE5FZUU1SWJ6WkVTV0pQUlhCUlZGOTRXVzg1YmxSelIydGZOMDVJTURBMWJWZGlWVWRtVEROTWNFa1NGemQ1ZW1SaGJ5MTNTblZ5Y1cxTVVWQXRPVmQxYjFFMEdpSkJSSE55T1daVVZVZHVkRFJvYVUxRlRXbGhWREYzZWtkblN6ZE9kaTFoTTNaMw",
+    "scraped_at": "2026-10-24T22:10:58.139191+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Junior AI/ML Engineer",
+    "company": "Resolv Global",
+    "description": "We are hiring Junior AI/ML Engineers to help build AI agents that handle customer conversations through voice and chat.\n\nYou'll work on the retrieval, orchestration, APIs, and integrations behind these systems, helping turn working prototypes into reliable production solutions. You'll collaborate with full-stack engineers, CX designers, and operations teams to develop AI-powered experiences that are practical, secure, and effective.\n\nWe welcome candidates with relevant professional experience, internships, research, or hands-on projects who are eager to develop their skills and contribute to real-world AI applications.\n\nWhat You'll Do\n\n• Build AI agents: Develop conversational agents that interact with users, call tools and APIs, and hand conversations off to human agents when needed.\n• Develop retrieval pipelines: Build retrieval-augmented generation (RAG) pipelines that help AI agents answer questions using approved information sources.\n• Integrate systems: Connect AI agents with CRMs, ticketing systems, databases, and messaging channels.\n• Build and manage APIs: Work with API gateways, authentication, rate limits, and versioning.\n• Support voice AI development: Help build voice agents using speech-to-text, large language models (LLMs), and text-to-speech in English and Spanish.\n• Test and improve quality: Use evaluations, automated tests, and guardrails to improve accuracy, reliability, and safety.\n• Support deployment and monitoring: Ship and maintain solutions through CI/CD, monitoring, and documentation.\n• Collaborate across teams: Work with engineering, CX design, and operations colleagues to turn prototypes into production-ready solutions.\n\nOur Technology Stack\n\nOur primary cloud platform is Microsoft Azure, but experience with AWS or Google Cloud is also valuable.\n\nRelevant technologies include Python, Git, Docker, SQL, LLM APIs, agent frameworks, RAG pipelines, REST APIs, API gateways, webhooks, messaging systems, and cloud-based AI services.\n\nExperience with any one of the named tools in each relevant area is sufficient. You don't need to have used every framework or platform listed.\n\nWorking Environment\n\nThis is a fully remote opportunity for candidates based in Colombia or Mexico. You'll work with full-stack engineers, CX designers, and operations teams to build and improve AI-powered customer conversation solutions.\n\nWe value curiosity, practical problem-solving, collaboration, and a willingness to learn. You'll have the opportunity to contribute to AI agents, retrieval systems, integrations, and voice AI applications while developing your engineering skills.\n\nHiring Process\n\nTo ensure fairness and consistency, all applicants must complete every stage of the hiring process.\n\nOur process includes:\n\n• Resume Review\n• Pre-Screen Questionnaire\n• One-Way Video Interview\n• Live Interview\n\nPlease Note\n\n• This is an English-speaking role that requires strong written and verbal English communication skills.\n• All resumes must be submitted in English to be considered for this position.\n\nRequirements:\n\nWhat You'll Bring\n\n• 1–3 years of experience in software engineering or ML engineering. Relevant internships and research experience count.\n• Solid Python skills and familiarity with Git, Docker, and basic SQL.\n• Experience with at least one cloud platform: Microsoft Azure, AWS, or Google Cloud.\n• Hands-on experience with an LLM API, such as OpenAI, Anthropic, Gemini, or Azure OpenAI.\n• Experience building an AI agent that calls tools or APIs, using a framework such as LangChain, LangGraph, or Semantic Kernel.\n• Experience building a RAG pipeline, including document chunking, embeddings, vector search, and retrieval tuning.\n• Experience building and consuming REST APIs, including authentication, rate limits, and versioning, with some exposure to API gateways.\n• Experience connecting systems through webhooks, SDKs, or message queues, such as integrating an application with a CRM or database.\n• Understanding of ML fundamentals, including embeddings, train/test splits, and evaluation metrics such as precision and recall.\n• Professional written and spoken English and Spanish.\n• Based in Colombia or Mexico.\n\nCandidates with strong foundational knowledge and relevant academic, internship, research, or personal project experience are encouraged to apply.\n\nNice to Have\n\n• Experience with speech AI or voice agent technologies, such as Azure AI Speech, Whisper, LiveKit, or Pipecat.\n• Familiarity with the Model Context Protocol (MCP) or integration platforms such as Azure Logic Apps or n8n.\n• Experience with CRM and contact center APIs, including Dynamics 365, Salesforce, or Zendesk.\n• Familiarity with LLM evaluation tools such as Langfuse or Ragas.\n• Cloud AI certifications or other relevant technical certifications.",
+    "url": "https://co.linkedin.com/jobs/view/junior-ai-ml-engineer-at-resolv-global-4481181443",
+    "location": "Barranquilla, Atlántico     •  a través de LinkedIn",
+    "source": "jsearch",
+    "external_id": "elVCTVpyQUdycl9XMzdfdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVjlKZDBwUVJrUk9halYzUjBsd1dWRXpSVFprUlU0MVowaGpNWFIwZUVrMmIxUXdkM2RJU1c4NWJWSnplRFpSV0RocVMxZDJSa05yWlVKNU1FZDBOMHh0WTB3NFFVVkJVR2hVV2pOU1duaGFYekkxWjNvNGVscHBUamhtZEhWUk5WaEZjMGgyUkVNeGFqSjRTM0F3VmxwMVltSm1WSGg1VGxKdU5Fc3paRlJuY1RGbmRGUVNGemQ1ZW1SaGJ5MTNTblZ5Y1cxTVVWQXRPVmQxYjFFMEdpSkJSSE55T1daU1ZuTjNjVko2Tm1Zd0xYSkdNbTR4VmxoS1IwVTBWbXRQTVZGMw",
+    "scraped_at": "2026-10-24T22:10:58.139191+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Junior Software Engineer",
+    "company": "Worldpanel",
+    "description": "JR SOFTWARE ENGINEER\n\nCompany: WORLDPANEL BY NUMERATOR\n\nOffice: Bogotá, Colombia - hybrid\n\nWe are looking for a talented Software Engineer with expertise in software development, application support and system integration. The ideal candidate should possess strong technical skills in .NET, C#, Python, SQL (MSSQL) and Javascript.\n\nThis role involves designing, developing, and maintaining high-performance applications, ensuring seamless functionality and user experience.\n\nResponsibilities:\n\n• Design, develop, and maintain software applications using Python and Databricks.\n• Be able to maintain legacy tools NET, C#, SQL (MSSQL) and Javascript.\n• Collaborate with cross functional teams to gather requirements, design solutions, and deliver new features.\n• Ensure high quality code through unit testing, integration testing, and code reviews.\n• Troubleshoot and resolve software defects and performance issues.\n• Prepare technical documentation and user manuals for developed applications.\n• Stay updated with emerging technologies and suggest improvements to existing systems.\n• Assistance and advice to the BAU support team where required.\n\nRequirements:\n\n• Good level of English (B2 Level Minimum); Spanish Proficiency.\n• Experience in software development and application support.\n• Knowledge in software development over Databricks and Python.\n• Proficiency in . NET, C#, SQL (MSSQL) and Javascript.\n• Experience with front-end and back-end development.\n• Understanding of software development life cycle (SDLC) and best practices.\n• Strong analytical and problem-solving skills.\n• Excellent communication and collaboration skills.\n• Experience with Cloud platforms (Azure) and modern development frameworks.\n• Experience of using MS Azure tooling, including ADO Boards.\n• Knowledge of Agile and Waterfall methodologies and DevOps practices.\n• Familiarity with version control systems (e.g., Git) and CI/CD pipelines.\n• Curiosity and passion for learning.\n\nEducational Qualifications:\n\n• Bachelor’s degree in Computer Science, Information Technology, Software Engineering, or a related field.\n• Certifications in .NET, or Python are an added advantage.",
+    "url": "https://bebee.com/co/jobs/junior-software-engineer-worldpanel-bogota--techmap_co_4463519810",
+    "location": "Bogotá     •  a través de BeBee",
+    "source": "jsearch",
+    "external_id": "U05OQ25YS0xlRFBDdlJEdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTeTFMVWxSclNrRkVOMGxWZFcwelp6TlRWMWd3YTJacldrUjVaVFJNWjAxRk1WSXpjamRPTkV0T2NEZEpWMlZWTTNGa1NHUnZVMkZQVEZGTk5rdFNaSEZaZUMxMU1IVnRUMnRGZEdWSWF6aHRiVUV6T0dnd1FrRjFNSFppYUhaelZIbEZhWGx3V2pkNVNWRlVZbWhxUVdacVdYazBaRmhTVVRGUlZsRjJNM2xtY0RZd1ltc1NGemQ1ZW1SaGJ5MTNTblZ5Y1cxTVVWQXRPVmQxYjFFMEdpSkJSSE55T1daVVMxSnZlREpqZG05NFRVWXdOMTlVUkU5VWIxVmtVMlo2U21abg",
+    "scraped_at": "2026-10-24T22:10:58.139191+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador .NET Junior con Enfoque en SQL Server",
+    "company": "Ofertasynegocios",
+    "description": "Ofertasynegocios busca un Ingeniero.NET junior ubicado en Bogotá, Colombia, para apoyar el desarrollo de soluciones en .NET y SQL Server. Se valoran estudiantes avanzados o tecnólogos en Ingeniería de Sistemas y áreas afines, con interés en networking y proyectos de TI.\n\nEl candidato debe tener al menos 2 años de experiencia o capacidad de liderar proyectos o roles relacionados, y aportar en la preventa técnica y en la implementación de soluciones de integración de datos.",
+    "url": "https://www.jobleads.com/co/job/desarrollador-net-junior-con-enfoque-en-sql-server--bogota--eb0b0cc5f21eac68f07b6905bfef18c07",
+    "location": "Bogotá     •  a través de JobLeads",
+    "source": "jsearch",
+    "external_id": "ZUl6dFFzVjBjOWo0UGZmM0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbDl3Y0c1Qk0xaEpURVZMV0ZVMVNsUklURFJRZEhSVlVqaDVaRzFWYUVsMFdVeFJTamRtUVhoTlpGbEpOVUprYkdOR01qZzNVSEl3TVRCRlUxSkVNRXhoVlVaM1lVRmtNRkZpUTNkTFgxVlFTVkJ1ZVZSU01EQnZkMDlDVUU5WVJGa3hMWFZWWVZSWGFraHFkVGxFZVhSVWJUa3RMVWw2UmtaV1EyeHRORkpqZVRRMVFWQVNGemQ1ZW1SaGJ5MTNTblZ5Y1cxTVVWQXRPVmQxYjFFMEdpSkJSSE55T1daVFlVOUdVVlpSVERsUWJEZFBPRE5QVDFaNWJtcFhWbEZYVlhKMw",
+    "scraped_at": "2026-10-24T22:10:58.139191+00:00",
+    "status": "new"
+  },
+  {
+    "title": "Desarrollador Junior - Cúcuta",
+    "company": "TOTALTEAM EST SAS",
+    "description": "Importante empresa requiere para su equipo de trabajo Desarrollador(a) Junior en Bogotá, tecnólogo(a) o estudiante desde sexto semestre de Ingeniería de Sistemas, Ingeniería de Software, Ingeniería Informática o carreras afines, con mínimo 1 año de experiencia en desarrollo de software. Debe contar con conocimientos en PHP, bases de datos, desarrollo web y de aplicaciones móviles, automatización de procesos, inteligencia artificial y patrón Modelo-Vista-Controlador (MVC). Será responsable del desarrollo, mantenimiento y mejora de aplicaciones, corrección de errores, soporte a plataformas internas y participación en proyectos tecnológicos. Se requiere una persona con capacidad de análisis, disposición para aprender y orientación al trabajo en equipo.\nSalario: $2.000.000 + auxilio de transporte + prestaciones de ley.\nHorario: lunes a viernes de 8:15 a. m. a 5:39 p. m. y sábados de 8:00 a. m. a 10:00 a. m. Contrato: obra o labor, pago mensual y posibilidad de crecimiento laboral a partir de los 6 meses, según desempeño.\n\n-Requerimientos- Educación mínima: Universidad / Carrera tecnológica\n1 año de experiencia\nConocimientos: Base de datos, Desarrollo web, Ingeniería, Ingeniería de sistemas, Ingeniería de software, Php, Programacion\nPalabras clave: developer, programador, jr, junior",
+    "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-junior-cucuta-en-cucuta-3C2B22E5134CFF1561373E686DCF3405",
+    "location": "Cúcuta, Norte de Santander     •  a través de Computrabajo",
+    "source": "jsearch",
+    "external_id": "TUhxMEpTRmNRc0ZWel84RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMnBSUkZvNVFURnJXbkV3ZVcxeVEybzVSRXhPYmpOeFNFdHhaM1Z3V21oS01GTnZhM1J5VjJGUk5saHZlbVV5ZFhreVEzTnVNeTEyZEc0dFFrTmxaR2t3TjNoUVpqaEdUWGxMV0VVdFpHMXZRWGs0VURnMVNuSTJSM014TTNnNVNEZGhiMmRyZFVSc1VuQk1XalpaYnpOU1VFcFljMUJ2WjJ4NmMwODNZbWRpZFdsbVNYQVNGeTFEZW1SaGNHbGhRblpwZVRWT2IxQjNXbTB5ZDFGWkdpSkJSSE55T1daUlowVmFiRzVtTXpoSFJ6YzFRWGRoVVZGS1JHSnhaamRVV0dKbg",
+    "scraped_at": "2026-10-24T22:11:07.719727+00:00",
+    "status": "new"
+  },
+  {
+    "title": "PROGRAMADOR DE SOFTWARE JUNIOR",
+    "company": "GESTION COMPETITIVA SAS",
+    "description": "PROGRAMADOR DE SOFTWARE en Bogotá requiere COMPAÑÍA MULTINACIONAL DE SOFTWARE PARA GESTION LOGISTICA Y TRANSPORTE. Tecnico o tecnólogo en sistemas . Con experiencia mínima de 2 años en desarrollo fullstack con dominio de PHP / Javascript/ SQL Server . Contrato inicialmente a término fijo y luego indefinido. Horario de lunes a sábado. Modalidad hibrida.",
+    "url": "https://www.elempleo.com/co/ofertas-trabajo/programador-de-software-junior-1886769150",
+    "location": "Bogotá     •  a través de El Empleo",
+    "source": "jsearch",
+    "external_id": "VTRxaEliTXFmMDlfcDhMVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGcxTTNVMVgyUkRjV1p1Y0hOaE9UbFVTbEJGUjBoNk1YUjJYMDlKZDFRNU1FUkphSE4xWVZSNGRXUkpURUptUjJSYVVrSmpibEZWVlhWamFXWjJVMTl6TFRaVWFHaFBSbWhqY0U5SU5USm9NVEZYVW5CblZXOUdZVTlmUTNaNVVtWklZMlJYYlhWSU1XdzRWRjlKZGw5dVZIWmlibFZzVkVONGExQnBWREY0TWpSdGQwc1NGeTFEZW1SaGNHbGhRblpwZVRWT2IxQjNXbTB5ZDFGWkdpSkJSSE55T1daU1JFczBibEZOVEVOeGRpMHRaRE5MYkdGRVJIZFdaa1J3VFhoUg",
+    "scraped_at": "2026-10-24T22:11:07.719727+00:00",
+    "status": "new"
   }
 ]

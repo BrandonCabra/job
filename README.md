@@ -24,10 +24,174 @@ Copia `config.example.env` a `.env`. Por defecto:
 - `OLLAMA_MODEL=llama3.2`: modelo local usado para elegir el CV más adecuado. Si Ollama no está disponible, se usa una selección local por coincidencia de términos.
 - `OLLAMA_HOST=http://127.0.0.1:11434`: dirección del servidor local de Ollama.
 - `OLLAMA_TIMEOUT_SECONDS=90`: tiempo máximo de espera de una selección antes de activar el fallback local.
+- `OLLAMA_GENERATOR_TIMEOUT_SECONDS=30`: tiempo máximo separado para refinar perfil y bullets; si vence, conserva el contenido original.
 - `NOTION_TOKEN`: token de integración de Notion, si se configura un CRM Notion.
 - `NOTION_DATABASE_ID`: ID de la base de datos de Notion, si se configura un CRM Notion.
+- `NOTION_ENABLED=false`: activa el envío opcional de cada auditoría a Notion.
+- `NOTION_VERSION=2022-06-28`: versión de la API de Notion utilizada.
+
+### Trazabilidad de documentos
+
+El logger local en `data/applications.csv` conserva una auditoría por candidatura:
+empresa, rol, score, estado, CV base seleccionado, ruta del PDF generado, enlace
+`file://` explícito, SHA-256 del CV base y SHA-256 del PDF. La huella permite
+demostrar que el documento no cambió después de la generación. El registro CSV se
+escribe antes de sincronizar con Notion, por lo que Notion no es un punto único de
+fallo.
+
+Para activar Notion, crea una base de datos con estas propiedades exactas:
+`Name` (title), `Empresa`, `Rol`, `Estado`, `CV base`, `CV SHA256`, `PDF SHA256`
+(rich text), `Score` (number), `PDF` y `Oferta` (URL). Comparte la base de datos
+con la integración y configura:
+
+```env
+NOTION_ENABLED=true
+NOTION_TOKEN=
+NOTION_DATABASE_ID=
+```
+
+El PDF local se registra como enlace `file://`; es accesible en el mismo equipo,
+pero no es un enlace público. Para compartirlo externamente, usa una carpeta
+sincronizada o almacenamiento con URL HTTPS y reemplaza `PDF` por esa URL.
 
 Para JSearch instala `requests`, define `JSEARCH_API_KEY` y usa `JOB_SOURCE=jsearch`. Las credenciales no deben entrar en el repositorio.
+Después de ejecutar `tools.fetch_jobs`, usa `JOB_SOURCE=local` para ejecutar
+`main.py` sobre las ofertas ya almacenadas sin volver a consumir cuota de RapidAPI.
+Usa `JOB_SOURCE=jsearch` únicamente cuando quieras que `main.py` haga una búsqueda
+nueva. El comando `tools.daily_run` sí consulta primero las fuentes configuradas y
+después procesa solo las ofertas nuevas.
+`JSEARCH_QUERIES` permite indicar roles separados por comas en español e inglés.
+`JSEARCH_HOST=jsearch-mega.p.rapidapi.com` y `JSEARCH_ENDPOINT=search` configuran el
+producto y endpoint de RapidAPI. Deben coincidir con la suscripción activa en RapidAPI.
+`JSEARCH_COUNTRY=co`, `JSEARCH_DATE_POSTED=all` y `JSEARCH_LANGUAGE=es` se envían como
+filtros explícitos. La cobertura de Colombia depende del proveedor; una respuesta HTTP 200
+con `data: []` significa que la API no encontró resultados para esa combinación, no que
+`daily_run` haya fallado.
+Los resultados con país distinto al configurado y los puestos con seniority senior,
+lead, principal, manager, director o equivalentes se descartan. Puedes ampliar o reducir
+la lista con `JSEARCH_EXCLUDE_SENIORITY`. `JSEARCH_CLEAN_CATALOG=true` elimina del
+catálogo persistido las ofertas JSearch antiguas que ya no cumplen país o seniority;
+déjalo en `false` si quieres conservar el histórico.
+`JSEARCH_QUERY_SUFFIX=junior` añade el término al texto de cada búsqueda para priorizar
+vacantes iniciales; el filtro de seniority sigue aplicándose después de recibir la respuesta.
+`OLLAMA_GENERATOR_TIMEOUT_SECONDS` limita el refinamiento del CV sin afectar la selección
+del CV base.
+`JOB_RSS_FEEDS` acepta feeds RSS separados por comas y `MAX_OLLAMA_JOBS=50` limita
+el número de ofertas que pasan al evaluador y a Ollama.
+
+`JOB_SOURCES` controla las fuentes activas, separadas por comas:
+`jsearch`, `rss`, `computrabajo` y `linkedin-import`. Cada fuente falla de forma
+aislada para que una caída no impida consultar las demás; el error se muestra en
+la salida del proceso.
+
+Computrabajo se consulta únicamente mediante una URL pública configurada por el
+usuario. Define, por ejemplo, `COMPUTRABAJO_SEARCH_URL_TEMPLATE` con los
+marcadores `{query}`, `{query_slug}` y `{location}` que admita la URL pública
+vigente. El adaptador no inicia sesión, no resuelve CAPTCHA y no intenta evadir
+robots.txt o controles anti-bot. Si la estructura del portal cambia, se debe
+revisar el adaptador antes de aumentar la frecuencia de consulta.
+
+LinkedIn se integra mediante importación controlada, no mediante scraping o
+automatización de login. Exporta o prepara un CSV/JSON con campos `title`,
+`company`, `description`, `url`, `location` y opcionalmente `published_at`, y
+configura `LINKEDIN_IMPORT_PATH`. Esto permite usar alertas o datos obtenidos
+manualmente y mantiene la revisión humana.
+
+También existe un adaptador opcional para proveedores RapidAPI:
+`facebook-api` y `linkedin-api`. Como cada suscripción tiene endpoints y esquemas
+distintos, copia desde el Playground el endpoint, el campo que contiene la lista
+de resultados (`response path`) y los parámetros requeridos:
+
+```env
+JOB_SOURCES=jsearch,facebook-api,linkedin-api
+FACEBOOK_RAPIDAPI_HOST=facebook-scraper3.p.rapidapi.com
+FACEBOOK_RAPIDAPI_ENDPOINT=<ruta-del-playground>
+FACEBOOK_RAPIDAPI_RESPONSE_PATH=data
+FACEBOOK_RAPIDAPI_PARAMS_JSON={"country":"co"}
+LINKEDIN_RAPIDAPI_HOST=<host-del-playground>
+LINKEDIN_RAPIDAPI_ENDPOINT=<ruta-del-playground>
+LINKEDIN_RAPIDAPI_RESPONSE_PATH=data
+LINKEDIN_RAPIDAPI_PARAMS_JSON={"location":"Colombia"}
+```
+
+El adaptador reutiliza `JSEARCH_API_KEY` como clave RapidAPI y normaliza campos
+comunes (`title`, `company`, `description`, `url`, `location`). No se debe copiar
+la clave en `config.example.env`. Si el proveedor usa otra autenticación o una
+respuesta anidada, ajusta `*_RAPIDAPI_QUERY_PARAM` y
+`*_RAPIDAPI_RESPONSE_PATH` según su documentación.
+
+### Captura automática de vacantes
+
+La captura está separada del procesamiento:
+
+```bash
+./venv/bin/python -m tools.fetch_jobs
+./venv/bin/python -m tools.daily_run
+```
+
+`fetch_jobs` consulta JSearch con roles bilingües de datos, QA, DevOps, Cloud, Full Stack
+y desarrollo/programación de software, combina opcionalmente feeds RSS, deduplica por ID o
+hash de URL y persiste el catálogo en `data/jobs.json`. El límite se aplica antes de enviar
+ofertas al evaluador y nunca supera 50 aunque `MAX_OLLAMA_JOBS` tenga un valor mayor.
+`daily_run` procesa únicamente las ofertas nuevas devueltas por `fetch_jobs`; si la captura
+devuelve cero, termina sin reevaluar el catálogo histórico.
+
+LinkedIn, Computrabajo y Empleo Colombia pueden aparecer indirectamente mediante la cobertura
+de JSearch. Para una fuente que ofrezca RSS se puede añadir su URL a `JOB_RSS_FEEDS`. No se
+automatiza el inicio de sesión ni se evaden CAPTCHA, robots.txt o controles anti-bot; para
+esas páginas se debe crear un adaptador autorizado y específico.
+
+### Ejecución cada 24 horas con systemd user timer
+
+Para un PC que solo está encendido en ciertos momentos, un timer de usuario es conveniente:
+ejecuta la tarea cuando el equipo está encendido y no requiere mantenerlo conectado todo el
+día. Si está apagado a la hora exacta, `Persistent=true` permite ejecutar la tarea al volver
+a encenderlo.
+
+Crea `~/.config/systemd/user/job-agent.service`:
+
+```ini
+[Unit]
+Description=Fetch and process job applications
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/brandon/Descargas/job
+ExecStart=/home/brandon/Descargas/job/venv/bin/python -m tools.daily_run
+```
+
+Crea `~/.config/systemd/user/job-agent.timer`:
+
+```ini
+[Unit]
+Description=Run job agent daily
+
+[Timer]
+OnCalendar=*-*-* 08:00:00
+Persistent=true
+Unit=job-agent.service
+
+[Install]
+WantedBy=timers.target
+```
+
+Activa el timer:
+
+```bash
+systemctl --user daemon-reload
+systemctl --user enable --now job-agent.timer
+systemctl --user list-timers job-agent.timer
+```
+
+Para probarlo manualmente:
+
+```bash
+systemctl --user start job-agent.service
+journalctl --user -u job-agent.service -f
+```
+
+Ollama debe estar disponible cuando se ejecuta el servicio; configúralo como servicio de
+usuario o asegúrate de iniciarlo antes del timer.
 
 ### Integración con Ollama
 
