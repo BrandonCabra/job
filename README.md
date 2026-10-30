@@ -19,7 +19,7 @@ Copia `config.example.env` a `.env`. Por defecto:
 - `JOB_SOURCE=local`: usa el JSON local.
 - `MIN_COMPATIBILITY=70`: umbral de aprobación.
 - `AUTO_SUBMIT=false`: exige revisión humana.
-- `CRM_PATH=data/applications.csv`: CRM local.
+- `CRM_PATH=data/applications.csv`: exportación CSV compatible; SQLite es la fuente principal cuando `STORAGE_BACKEND=sqlite`.
 - `CV_PATH=data/master_cv.md`: archivo de referencia; el evaluador selecciona dinámicamente otro `.md` de `data/` usando Ollama.
 - `OLLAMA_MODEL=llama3.2`: modelo local usado para elegir el CV más adecuado. Si Ollama no está disponible, se usa una selección local por coincidencia de términos.
 - `OLLAMA_HOST=http://127.0.0.1:11434`: dirección del servidor local de Ollama.
@@ -32,12 +32,13 @@ Copia `config.example.env` a `.env`. Por defecto:
 
 ### Trazabilidad de documentos
 
-El logger local en `data/applications.csv` conserva una auditoría por candidatura:
+La tabla SQLite `applications` conserva la auditoría por candidatura. `data/applications.csv`
+es una exportación compatible regenerada desde SQLite:
 empresa, rol, score, estado, CV base seleccionado, ruta del PDF generado, enlace
 `file://` explícito, SHA-256 del CV base y SHA-256 del PDF. La huella permite
-demostrar que el documento no cambió después de la generación. El registro CSV se
-escribe antes de sincronizar con Notion, por lo que Notion no es un punto único de
-fallo.
+demostrar que el documento no cambió después de la generación. SQLite se escribe antes
+de sincronizar con Notion, por lo que Notion no es un punto único de fallo. El histórico
+existente del CSV se importa automáticamente una sola vez cuando la tabla está vacía.
 
 Para activar Notion, crea una base de datos con estas propiedades exactas:
 `Name` (title), `Empresa`, `Rol`, `Estado`, `CV base`, `CV SHA256`, `PDF SHA256`
@@ -78,6 +79,35 @@ vacantes iniciales; el filtro de seniority sigue aplicándose después de recibi
 del CV base.
 `JOB_RSS_FEEDS` acepta feeds RSS separados por comas y `MAX_OLLAMA_JOBS=50` limita
 el número de ofertas que pasan al evaluador y a Ollama.
+
+## API FastAPI
+
+La API usa SQLite como fuente principal y comparte los servicios de evaluación y
+generación con la CLI. Para iniciar el backend:
+
+```bash
+uvicorn api.main:app --reload
+```
+
+Endpoints iniciales:
+
+- `GET /health`
+- `GET /api/v1/jobs`
+- `GET /api/v1/jobs/{id}`
+- `POST /api/v1/jobs/{id}/evaluate`
+- `POST /api/v1/jobs/{id}/documents`
+- `GET /api/v1/documents/{filename}`
+- `GET /api/v1/applications`
+- `GET /api/v1/applications/{id}`
+- `PATCH /api/v1/applications/{id}`
+- `POST /api/v1/jobs/{id}/evaluate-task`
+- `POST /api/v1/jobs/{id}/documents-task`
+- `GET /api/v1/tasks/{id}`
+
+Las operaciones lentas de Ollama y generación de documentos pueden encolarse como
+tareas persistentes. Devuelven `202 Accepted` y se consultan mediante
+`GET /api/v1/tasks/{id}`. Los estados son `queued`, `running`, `completed` o
+`failed`. La API no activa envíos automáticos.
 
 `JOB_SOURCES` controla las fuentes activas, separadas por comas:
 `jsearch`, `rss`, `computrabajo` y `linkedin-import`. Cada fuente falla de forma
@@ -258,3 +288,62 @@ python3 -m unittest discover -s tests -v
 El envío automático está intencionadamente protegido: el MVP no presenta una candidatura sin una integración de sitio configurada y una confirmación explícita.
 
 Los CV en PDF se conservan como documentos originales. El evaluador construye un catálogo con los CV `.md` de la misma carpeta que `CV_PATH`, excluyendo `master_cv.md`, y selecciona uno antes de evaluar y generar documentos. El texto extraído de cada PDF puede convertirse a `.md` para añadirlo al catálogo.
+## Ejecución segura y reproducible
+
+El catálogo puede ejecutarse con SQLite para evitar sobrescrituras concurrentes:
+
+```env
+STORAGE_BACKEND=sqlite
+JOB_DB_PATH=data/jobs.db
+ALLOW_REMOTE_LLM=false
+```
+
+Con `STORAGE_BACKEND=sqlite`, la primera ejecución importa las ofertas existentes de
+`data/jobs.json` y escribe las nuevas en `data/jobs.db`. El CSV de postulaciones se
+protege con bloqueo de archivo durante la transición.
+
+Las descripciones obtenidas de APIs, RSS o páginas públicas se tratan como datos no
+confiables en los prompts. No se siguen instrucciones incluidas en una oferta. El
+modelo remoto está bloqueado por defecto; solo se puede habilitar explícitamente con
+`ALLOW_REMOTE_LLM=true` después de revisar la política de privacidad del proveedor.
+
+Para un entorno reproducible con Playwright/Chromium y ReportLab:
+
+```bash
+docker build -t job-agent .
+docker run --rm --env-file .env -v "$PWD/data:/app/data" -v "$PWD/output:/app/output" job-agent
+```
+
+El scraping reintenta errores transitorios (`429`, `5xx`) con backoff y respeta
+`Retry-After`. Un `403` no se evade ni se reintenta automáticamente.
+
+## Frontend React
+
+El frontend independiente está en [`frontend/`](./frontend) y consume la API
+FastAPI mediante el proxy de Vite.
+
+En una terminal inicia el backend:
+
+```bash
+.venv/bin/uvicorn api.main:app --reload
+```
+
+En otra terminal instala y ejecuta el frontend:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Abre `http://localhost:5173`. El panel permite consultar ofertas y candidaturas,
+encolar evaluaciones o generación de documentos, consultar el progreso de las
+tareas y actualizar el estado de una candidatura. El envío automático permanece
+desactivado.
+
+Para validar el bundle de producción:
+
+```bash
+cd frontend
+npm run build
+```

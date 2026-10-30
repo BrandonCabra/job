@@ -1,6 +1,12 @@
 .env
 venv/
+.venv/
 __pycache__/
 *.pyc
 output/
 data/applications.csv
+data/jobs.db
+data/jobs.db-shm
+data/jobs.db-wal
+frontend/node_modules/
+frontend/dist/

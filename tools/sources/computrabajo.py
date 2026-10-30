@@ -4,6 +4,7 @@ from urllib.parse import quote_plus
 import requests
 from bs4 import BeautifulSoup
 
+from tools.http_utils import get_with_backoff
 from tools.models import Job
 
 
@@ -75,7 +76,7 @@ def search_computrabajo(
             location=quote_plus(location),
         )
         try:
-            response = requests.get(
+            response = get_with_backoff(
                 url,
                 headers={"User-Agent": "job-agent/1.0 (+public-job-search)"},
                 timeout=timeout,

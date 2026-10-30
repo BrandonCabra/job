@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Callable, Iterable
 
 from tools.models import Job
+from tools.http_utils import get_with_backoff
 
 DEFAULT_ROLE_QUERIES = [
     "Data Engineer",
@@ -82,7 +83,13 @@ def save_jobs(path: str | Path, jobs: Iterable[Job]) -> None:
         }
         for job in jobs
     ]
-    Path(path).write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    destination = Path(path)
+    temporary = destination.with_name(f".{destination.name}.tmp")
+    temporary.write_text(
+        json.dumps(records, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    temporary.replace(destination)
 
 
 def _normalize_job(item: dict, source: str, scraped_at: str) -> Job:
@@ -152,7 +159,7 @@ def search_jsearch(query: str, location: str = "", limit: int = 10) -> list[Job]
         normalized_location = "Colombia" if country.strip().lower() == "co" else country
     query_suffix = os.getenv("JSEARCH_QUERY_SUFFIX", "").strip()
     effective_query = f"{query} {query_suffix} {normalized_location}".strip()
-    response = requests.get(
+    response = get_with_backoff(
         f"https://{rapidapi_host}/{endpoint}",
         params={
             "query": effective_query,

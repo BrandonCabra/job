@@ -4,13 +4,35 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+try:
+    import portalocker
+except ModuleNotFoundError:
+    portalocker = None
+import fcntl
+from contextlib import contextmanager
+
 from tools.models import ApplicationRecord
+from tools.storage import load_applications, save_application
 
 FIELDS = [
     "timestamp", "company", "title", "score", "status", "step", "url",
     "cv_path", "cover_letter_path", "pdf_path", "source_cv_path",
     "pdf_url", "source_cv_sha256", "pdf_sha256", "details",
 ]
+
+
+@contextmanager
+def _locked_csv(path: Path):
+    if portalocker is not None:
+        with portalocker.Lock(path, mode="a", timeout=30, newline="", encoding="utf-8") as handle:
+            yield handle
+        return
+    with path.open("a", newline="", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            yield handle
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
 
 
 def _sha256(path: str) -> str:
@@ -32,6 +54,39 @@ def _audit_fields(record: ApplicationRecord) -> dict[str, str]:
         "source_cv_sha256": _sha256(source_cv) if source_cv and Path(source_cv).is_file() else "",
         "pdf_sha256": _sha256(pdf_path) if pdf_path and Path(pdf_path).is_file() else "",
     }
+
+
+def _csv_row_from_application(row) -> dict[str, str]:
+    import json
+
+    details = json.loads(row["details"] or "{}")
+    return {
+        "timestamp": row["created_at"],
+        "company": row["company"],
+        "title": row["title"],
+        "score": str(row["score"]),
+        "status": row["status"],
+        "step": row["step"],
+        "url": row["url"],
+        "cv_path": row["cv_path"],
+        "cover_letter_path": row["cover_letter_path"],
+        "pdf_path": details.get("pdf_path", ""),
+        "source_cv_path": details.get("selected_cv", ""),
+        "pdf_url": details.get("pdf_url", ""),
+        "source_cv_sha256": details.get("source_cv_sha256", ""),
+        "pdf_sha256": details.get("pdf_sha256", ""),
+        "details": "; ".join(f"{key}={value}" for key, value in details.items()),
+    }
+
+
+def export_applications_csv(database_path: str, csv_path: str) -> None:
+    destination = Path(csv_path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    rows = load_applications(database_path)
+    with destination.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=FIELDS)
+        writer.writeheader()
+        writer.writerows(_csv_row_from_application(row) for row in rows)
 
 
 def _notion_property_text(value: str) -> dict:
@@ -77,29 +132,41 @@ def _sync_notion(record: ApplicationRecord, audit: dict[str, str]) -> None:
         raise RuntimeError(f"Notion respondió HTTP {response.status_code}: {response.text[:500]}")
 
 
-def log_application(record: ApplicationRecord, path: str) -> None:
+def log_application(
+    record: ApplicationRecord,
+    path: str,
+    database_path: str | None = None,
+) -> None:
     audit = _audit_fields(record)
     record.details.update(audit)
+    if database_path:
+        save_application(database_path, record)
+        export_applications_csv(database_path, path)
+        try:
+            _sync_notion(record, audit)
+        except (OSError, RuntimeError) as exc:
+            print(f"No se pudo sincronizar la auditoría con Notion; SQLite se conservó: {exc}")
+        return
     destination = Path(path)
     destination.parent.mkdir(parents=True, exist_ok=True)
     exists = destination.exists()
-    with destination.open("a", newline="", encoding="utf-8") as handle:
+    with _locked_csv(destination) as handle:
         writer = csv.DictWriter(handle, fieldnames=FIELDS)
-        if not exists:
+        if not exists or destination.stat().st_size == 0:
             writer.writeheader()
         writer.writerow({
-            "timestamp": datetime.now().isoformat(timespec="seconds"),
-            "company": record.job.company,
-            "title": record.job.title,
-            "score": record.score,
-            "status": record.status,
-            "step": record.step,
-            "url": record.job.url,
-            "cv_path": record.cv_path,
-            "cover_letter_path": record.cover_letter_path,
-            **audit,
-            "details": "; ".join(f"{key}={value}" for key, value in record.details.items()),
-        })
+                "timestamp": datetime.now().isoformat(timespec="seconds"),
+                "company": record.job.company,
+                "title": record.job.title,
+                "score": record.score,
+                "status": record.status,
+                "step": record.step,
+                "url": record.job.url,
+                "cv_path": record.cv_path,
+                "cover_letter_path": record.cover_letter_path,
+                **audit,
+                "details": "; ".join(f"{key}={value}" for key, value in record.details.items()),
+            })
     try:
         _sync_notion(record, audit)
     except (OSError, RuntimeError) as exc:

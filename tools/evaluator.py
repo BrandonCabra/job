@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 from tools.models import Evaluation, Job
+from tools.llm_safety import SYSTEM_PROMPT, ensure_llm_endpoint_allowed, untrusted_offer, llm_host
 
 logger = logging.getLogger(__name__)
 
@@ -89,15 +90,16 @@ def _llm_selection(description: str, catalog: list[dict[str, str]]) -> tuple[str
     except ImportError as exc:
         raise RuntimeError("El paquete ollama no está instalado") from exc
 
+    ensure_llm_endpoint_allowed()
     prompt = (
         "Selecciona el CV base más adecuado para esta oferta. "
         "Devuelve únicamente JSON válido con las claves filename y confidence. "
         "filename debe coincidir exactamente con uno de los filenames del catálogo; "
         "confidence debe ser un número entre 0 y 1.\n\n"
-        f"OFERTA:\n{description}\n\nCATÁLOGO:\n{json.dumps(catalog, ensure_ascii=False)}"
+        f"{untrusted_offer(description)}\n\nCATÁLOGO:\n{json.dumps(catalog, ensure_ascii=False)}"
     )
     client = ollama.Client(
-        host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
+        host=llm_host(),
         timeout=float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "90")),
     )
     try:
@@ -106,7 +108,7 @@ def _llm_selection(description: str, catalog: list[dict[str, str]]) -> tuple[str
             messages=[
                 {
                     "role": "system",
-                    "content": "Eres un reclutador técnico experto en seleccionar perfiles profesionales.",
+                    "content": f"Eres un reclutador técnico experto en seleccionar perfiles profesionales. {SYSTEM_PROMPT}",
                 },
                 {"role": "user", "content": prompt},
             ],

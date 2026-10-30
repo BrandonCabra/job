@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from tools.models import Evaluation, Job
+from tools.llm_safety import SYSTEM_PROMPT, ensure_llm_endpoint_allowed, llm_host, untrusted_offer
 
 logger = logging.getLogger(__name__)
 
@@ -163,6 +164,11 @@ def _rewrite_bullets(job: Job, cv: str, bullets: list[str], evaluation: Evaluati
     except ImportError:
         return bullets
 
+    try:
+        ensure_llm_endpoint_allowed()
+    except RuntimeError as exc:
+        logger.warning("Se omite LLM remoto por politica de privacidad: %s", exc)
+        return bullets
     evidence = "\n".join(f"{index + 1}. {bullet}" for index, bullet in enumerate(bullets))
     prompt = (
         "Reescribe sutilmente estos bullets de experiencia para adaptar un CV a una oferta. "
@@ -171,14 +177,14 @@ def _rewrite_bullets(job: Job, cv: str, bullets: list[str], evaluation: Evaluati
         "No inventes logros, métricas, responsabilidades ni tecnologías. Solo puedes usar tecnologías "
         "que aparezcan literalmente en la evidencia. Prioriza las habilidades coincidentes y, si una "
         "habilidad falta, no la agregues.\n\n"
-        f"OFERTA:\n{job.title}: {job.description}\n\n"
+        f"{untrusted_offer(f'{job.title}: {job.description}')}\n\n"
         f"HABILIDADES COINCIDENTES: {', '.join(evaluation.matched_skills)}\n"
         f"HABILIDADES FALTANTES: {', '.join(evaluation.missing_skills)}\n\n"
         f"EVIDENCIA DEL CV:\n{evidence}"
     )
     try:
         client = ollama.Client(
-            host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
+            host=llm_host(),
             timeout=float(os.getenv("OLLAMA_GENERATOR_TIMEOUT_SECONDS", "30")),
         )
         response = client.chat(
@@ -186,7 +192,7 @@ def _rewrite_bullets(job: Job, cv: str, bullets: list[str], evaluation: Evaluati
             messages=[
                 {
                     "role": "system",
-                    "content": "Eres un editor de CV conservador y verificable.",
+                    "content": f"Eres un editor de CV conservador y verificable. {SYSTEM_PROMPT}",
                 },
                 {"role": "user", "content": prompt},
             ],
@@ -223,23 +229,28 @@ def _rewrite_profile(job: Job, cv: str, profile: list[str], evaluation: Evaluati
     try:
         import httpx
         import ollama
+    except ImportError as exc:
+        logger.warning("Ollama no disponible; se conserva el perfil original: %s", exc)
+        return profile
+    try:
+        ensure_llm_endpoint_allowed()
 
         prompt = (
             "Adapta este perfil profesional a la oferta de empleo. Devuelve únicamente JSON con la "
             "clave profile y un texto. Conserva todos los hechos y no inventes tecnologías, métricas, "
             "cargos, empresas ni años. Solo puedes priorizar información que ya aparece en el texto.\n\n"
-            f"OFERTA: {job.title}: {job.description}\n"
+            f"{untrusted_offer(f'{job.title}: {job.description}')}\n"
             f"HABILIDADES COINCIDENTES: {', '.join(evaluation.matched_skills)}\n"
             f"CV FUENTE:\n{' '.join(profile)}"
         )
         client = ollama.Client(
-            host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
+            host=llm_host(),
             timeout=float(os.getenv("OLLAMA_GENERATOR_TIMEOUT_SECONDS", "30")),
         )
         response = client.chat(
             model=os.getenv("OLLAMA_MODEL", "llama3.2"),
             messages=[
-                {"role": "system", "content": "Eres un editor de CV conservador y verificable."},
+                {"role": "system", "content": f"Eres un editor de CV conservador y verificable. {SYSTEM_PROMPT}"},
                 {"role": "user", "content": prompt},
             ],
             format="json",

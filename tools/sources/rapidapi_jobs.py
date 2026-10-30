@@ -4,6 +4,7 @@ from typing import Any
 
 import requests
 
+from tools.http_utils import get_with_backoff
 from tools.models import Job
 
 
@@ -54,7 +55,7 @@ def search_rapidapi_jobs(
     for query in queries:
         params = dict(static_params)
         params[query_param] = f"{query} {location}".strip()
-        response = requests.get(
+        response = get_with_backoff(
             f"https://{host}/{endpoint}",
             params=params,
             headers={"X-RapidAPI-Key": api_key, "X-RapidAPI-Host": host},
